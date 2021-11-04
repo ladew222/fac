@@ -16,3 +16,17 @@
                 document.documentElement.classList.remove('transition');
             }, 1000)
         }
+		
+		
+$(document).ready(function() {
+    $('input[type=checkbox][name=mode]').change(function() {
+        if ($(this).prop("checked")) {
+            //alert(`${this.value} is checked`);
+			$(document.documentElement).attr("data-theme","dark");
+        }
+        else {
+            //alert(`${this.value} is unchecked`);
+			$(document.documentElement).attr("data-theme","light");
+        }
+    });
+});

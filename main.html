@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link href="css/main.css" rel="stylesheet">
     <title>Bootstrap Portfolio Page Template</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	  <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">Navbar</a>
+		<h3>Light/Dark</h3>
+        <input class="container_toggle" type="checkbox" id="switch" name="mode">
+        <label for="switch">Light/Dark</label>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
@@ -38,18 +41,17 @@
             <a class="nav-link disabled" href="#">Disabled</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        <form class="form-inline">
+              <div class="nav-item custom-control custom-switch mr-sm-2 d-flex align-items-center" >
+                <input type="checkbox" class="navbar-toggler form-control custom-control-input" id="transparency" checked>
+                <label class="navbar-text custom-control-label small" for="transparency">Transparency</label>
+              </div>
+            </form>
       </div>
     </nav>
-    <div class="container">
-        <h1>Light / Dark Mode</h1>
+	  
 
-        <input class="container_toggle" type="checkbox" id="switch" name="mode">
-        <label for="switch">Toggle</label>
-    </div>
+
 	  <section>
       <div class="jumbotron text-center mt-2">
         <div class="container">

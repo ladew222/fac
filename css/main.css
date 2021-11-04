@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,900&display=swap");
 html {
+  width: 100%;
+  height: 100vh;
   background: var(--lightBg);
   --lightBtn: #FE016C;
   --lightBg: #fff;
@@ -11,9 +13,19 @@ html[data-theme='dark'] {
   --lightBg: #232323;
   --lightColor: #fff; }
 
+body {
+  background: var(--lightBg); }
+
 h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
+  color: var(--lightColor); }
+
+h2, h3, h4, h5 {
+  font-family: 'Poppins', sans-serif;
+  color: var(--lightColor); }
+
+section {
   color: var(--lightColor); }
 
 input[type=checkbox] {
@@ -76,6 +88,7 @@ html.transition *:after {
   background: var(--lightBg);
   border-top: 1px solid var(--lightBtn); }
   .thanku p {
+    background: var(--lightBg);
     width: 100%;
     text-align: center; }
     .thanku p a {
