@@ -62,21 +62,19 @@ label:after {
   left: 4px;
   transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 320ms; }
 
-input:checked + label {
+.sw input:checked + label {
   background: #FFBD07; }
-
-input:checked + label:after {
+.sw input:checked + label:after {
   left: calc(100% - 5px);
   -webkit-transform: translateX(-100%);
   -moz-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   -o-transform: translateX(-100%);
   transform: translateX(-100%); }
-
-html.transition,
-html.transition *,
-html.transition *:before,
-html.transition *:after {
+.sw html.transition,
+.sw html.transition *,
+.sw html.transition *:before,
+.sw html.transition *:after {
   transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 420ms !important;
   transition-delay: 0 !important; }
 
