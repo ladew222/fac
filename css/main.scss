@@ -4,7 +4,7 @@ html {
   height: 100vh;
   background: var(--lightBg);
 
-  --lightBtn: #FE016C;
+  --lightBtn: #A51D37;
   --lightBg: #fff;
   --lightColor: #232323;
 }
@@ -32,100 +32,45 @@ h2,h3,h4,h5 {
 section{
  color: var(--lightColor);	
 }
-
-input[type=checkbox] {
-  height: 0;
-  width: 0;
-  visibility: hidden;
-}
-
-label {
-  cursor: pointer;
-  text-indent: -9999px;
-  width: 55px;
-  height: 30px;
-  background: var(--lightBtn);
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
-  position: relative;
-}
-
-label:after {
-  content: '';
-  background: #fff;
-  width: 20px;
-  height: 20px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  position: absolute;
-  top: 5px;
-  left: 4px;
- transition: cubic-bezier(0.68, -0.55, 0.27, 01.55) 320ms;
-}
-
-.sw{
-	input:checked + label {
-  		background: #FFBD07;
+/*toggle light dar;*/
+.sc{
+	.switch {
+		
+		position: relative;
+  		display: inline-block;
+  		width: 40px;
+  		height: 20px;
+  		background-color: rgba(0, 0, 0, 0.25);
+  		border-radius: 20px;
+  		transition: all 0.3s;
+		&:after{
+			content: '';
+			position: absolute;
+			width: 18px;
+			height: 18px;
+			border-radius:50%;
+			background-color: white;
+			top: 1px;
+			left: 1px;
+			transition: all 0.3s;
+		}
+		
+	}
+	
+	.checkbox:checked + .switch::after {
+	  left : 20px;
+	}
+	.checkbox:checked + .switch {
+	  background-color: #7983ff;
+	}
+	.checkbox {
+	  display : none;
 	}
 
-	input:checked + label:after {
-	  left: calc(100% - 5px);
-	  -webkit-transform: translateX(-100%);
-	  -moz-transform: translateX(-100%);
-	  -ms-transform: translateX(-100%);
-	  -o-transform: translateX(-100%);
-	  transform: translateX(-100%);
-	}
-	html.transition,
-	html.transition *,
-	html.transition *:before,
-	html.transition *:after {
-	  transition: cubic-bezier(0.68, -0.55, 0.27, 01.55) 420ms!important;
-	  transition-delay: 0!important;
-	}
+	
 }
 
-
-
-
-
-/* ignore, but thank u */
-.thanku {
-  width: 100%;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  background: var(--lightBg);
-  border-top: 1px solid var(--lightBtn);
-
-  p {
-	 background: var(--lightBg);
-     width:100%;
-     text-align:center;
-     a{
-       letter-spacing: 1px;
-       font-size: 12px;
-       color: var(--lightColor);
-       text-align: center;
-           font-family: 'Poppins';
-        text-decoration: none;
-        margin-left:25px;
-        margin-right: 25px;
-     }
-  }
-}
-
-
-
-
-
-
+/*arrow downs*/
 .sc-down{
 	padding: 50px;
 	h3{
@@ -176,9 +121,13 @@ label:after {
 		}
 	}
 }
+//first panel
 .welcome{
 	background: url('../images/gradient.svg');
   	background-size: cover;
 	border-radius:0px;
+	img{
+		max-width: 80%;
+	}
 }
 
