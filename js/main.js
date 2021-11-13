@@ -29,4 +29,9 @@ $(document).ready(function() {
 			$(document.documentElement).attr("data-theme","light");
         }
     });
+	
+	$('.clickableList').click(function() {
+		//event.preventDefault();
+		
+	});
 });
