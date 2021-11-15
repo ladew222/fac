@@ -6,13 +6,17 @@ html {
   background: var(--lightBg);
   --lightBtn: #A51D37;
   --lightBg: #fff;
-  --lightColor: #232323; }
+  --lightColor: #232323;
+  --lightimg: url(../images/shapes.svg);
+  --light_head_bg: #ccc; }
 
 html[data-theme='dark'] {
   background: var(--lightBg);
   --lightBtn: #FFBD07;
   --lightBg: #232323;
-  --lightColor: #fff; }
+  --lightColor: #fff;
+  --lightimg: url(../images/gradient.svg);
+  --light_head_bg: red; }
 
 body {
   background: var(--lightBg); }
@@ -122,8 +126,8 @@ section {
       /* Safari 和 Chrome */ }
 
 .welcome {
-  background: url("../images/gradient.svg");
   background-size: cover;
-  border-radius: 0px; }
+  border-radius: 0px;
+  background-color: var(--light_head_bg); }
   .welcome img {
     max-width: 80%; }
