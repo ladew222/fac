@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,900&display=swap');
 
+$primary:#1F2F5F;
+$secondary:#A51D37;
+$white:#fff;
+$black:#000;
+
 html {
   ///default styles 
   width: 100%;
@@ -159,8 +164,59 @@ section{
 	
 	
 }
+//silence phone dialog
+.ph_silent{
+    border-radius: 0rem;
+	margin-bottom: 0rem;
+	background: $black;
+	border:0px;
+	color:$white;
+	svg{
+		margin-right:.5rem;
+	}
+	strong{
+		font-size:.9rem;
+	}
+	a.close{
+		padding: 0.4rem 0.6rem;
+		margin:12px;
+		background: $white;
+		color:$secondary;
+		opacity:1;
+		border-radius:.4rem;
+		margin-top: .4rem;
+	}
+}
 
 
+//headline
+.navbar.cnav{
+	background: $primary;
+	color:$white;
+	.navbar-brand{
+		color:$white;
+	}
+	
+	button.navbar-toggler{
+		border-color:$white;
+	}
+}
+//headline style
+.headline{
+	//header dots
+	.dot {
+	  height: 7px;
+	  width: 7px;
+	  background-color: #bbb;
+	  border-radius: 50%;
+	  display: inline-block;
+	  margin:3px;
+	}
+
+	.htext{
+		font-size: 2rem;
+	}
+}
 
 
 

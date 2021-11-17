@@ -131,3 +131,40 @@ section {
   background-color: var(--light_head_bg); }
   .welcome img {
     max-width: 80%; }
+
+.ph_silent {
+  border-radius: 0rem;
+  margin-bottom: 0rem;
+  background: #000;
+  border: 0px;
+  color: #fff; }
+  .ph_silent svg {
+    margin-right: .5rem; }
+  .ph_silent strong {
+    font-size: .9rem; }
+  .ph_silent a.close {
+    padding: 0.4rem 0.6rem;
+    margin: 12px;
+    background: #fff;
+    color: #A51D37;
+    opacity: 1;
+    border-radius: .4rem;
+    margin-top: .4rem; }
+
+.navbar.cnav {
+  background: #1F2F5F;
+  color: #fff; }
+  .navbar.cnav .navbar-brand {
+    color: #fff; }
+  .navbar.cnav button.navbar-toggler {
+    border-color: #fff; }
+
+.headline .dot {
+  height: 7px;
+  width: 7px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 3px; }
+.headline .htext {
+  font-size: 2rem; }
