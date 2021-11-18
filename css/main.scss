@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap');
 
 $primary:#1F2F5F;
 $secondary:#A51D37;
 $white:#fff;
 $black:#000;
+$alt_title:#74c4d6;
 
 html {
   ///default styles 
@@ -16,6 +17,7 @@ html {
   --lightColor: #232323;
   --lightimg: url(../images/shapes.svg);
   --light_head_bg: #ccc;
+	--light_title_color:#{$primary};
 	
 }
 
@@ -27,6 +29,7 @@ html[data-theme='dark'] {
   --lightColor: #fff;
   --lightimg: url(../images/gradient.svg);
   --light_head_bg: red;
+	--light_title_color:#{$alt_title};
 }
 body{
 	 background: var(--lightBg);
@@ -204,19 +207,75 @@ section{
 //headline style
 .headline{
 	//header dots
+	margin-bottom: 2rem;
+	text-align: center;
+	font: RobotoSlab;
+	color: var(--light_title_color);
 	.dot {
 	  height: 7px;
+	  color:var(--light_title_color);
 	  width: 7px;
-	  background-color: #bbb;
+	  background-color: var(--light_title_color);
 	  border-radius: 50%;
 	  display: inline-block;
 	  margin:3px;
 	}
 
-	.htext{
+	.htext {
 		font-size: 2rem;
 	}
 }
+/////////////////
+//section styles
+/////////////////
+section{
+	&.directors_note{
+		img {
+			float:right;
+			padding-left: 1rem;
+			border-radius: 10%;
+			}
+	}
+	&.biographies{
+		img{
+			float:right;
+			padding-left: 1rem;
+			border-radius: 10%;
+		}
+		div.position{
+		
+			h3{
+				color:$secondary;
+			}
+
+			hr{
+				background:$secondary;
+			}
+		}
+	}
+}
+
+
+
+
+//bio section
+section.biographies{
+	image {
+		float:right;
+		padding-left: 1rem;
+		border-radius: 30%;
+	}
+	.position{
+		h3{
+			color:$secondary;
+		}
+
+		hr{
+			background:$secondary;
+		}
+	}
+}
+
 
 
 
