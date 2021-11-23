@@ -1,23 +1,22 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap");
 html {
   width: 100%;
   height: 100vh;
   background: var(--lightBg);
   --lightBtn: #A51D37;
-  --lightBg: #fff;
+  --lightBg: #e6e6e6;
   --lightColor: #232323;
   --lightimg: url(../images/shapes.svg);
-  --light_head_bg: #ccc;
+  --light_head_bg: #e6e6e6;
   --light_title_color:#1F2F5F; }
 
 html[data-theme='dark'] {
   background: var(--lightBg);
-  --lightBtn: #FFBD07;
-  --lightBg: #232323;
+  --lightBtn: #A51D37;
+  --lightBg: #494949;
   --lightColor: #fff;
   --lightimg: url(../images/gradient.svg);
-  --light_head_bg: red;
+  --light_head_bg: #494949;
   --light_title_color:#74c4d6; }
 
 body {
@@ -78,62 +77,6 @@ section {
       background-color: #E2E8F0;
       transition: .4s all ease; }
 
-/*arrow downs*/
-.sc-down {
-  padding: 50px; }
-  .sc-down h3 {
-    padding-bottom: 40px; }
-  .sc-down .arrows {
-    width: 60px;
-    height: 72px;
-    position: absolute;
-    left: 50%;
-    margin-left: -30px;
-    bottom: 20px; }
-@keyframes arrow {
-  0% {
-    opacity: 0; }
-  40% {
-    opacity: 1; }
-  80% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
-@-webkit-keyframes arrow /*Safari and Chrome*/ {
-  0% {
-    opacity: 0; }
-  40% {
-    opacity: 1; }
-  80% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
-    .sc-down .arrows path {
-      stroke: #2994D1;
-      fill: transparent;
-      stroke-width: 1px;
-      animation: arrow 2s infinite;
-      -webkit-animation: arrow 2s infinite; }
-    .sc-down .arrows path.a1 {
-      animation-delay: -1s;
-      -webkit-animation-delay: -1s;
-      /* Safari 和 Chrome */ }
-    .sc-down .arrows path.a2 {
-      animation-delay: -0.5s;
-      -webkit-animation-delay: -0.5s;
-      /* Safari 和 Chrome */ }
-    .sc-down .arrows path.a3 {
-      animation-delay: 0s;
-      -webkit-animation-delay: 0s;
-      /* Safari 和 Chrome */ }
-
-.welcome {
-  background-size: cover;
-  border-radius: 0px;
-  background-color: var(--light_head_bg); }
-  .welcome img {
-    max-width: 80%; }
-
 .ph_silent {
   border-radius: 0rem;
   margin-bottom: 0rem;
@@ -177,10 +120,31 @@ section {
   .headline .htext {
     font-size: 2rem; }
 
+section.welcome {
+  background-size: cover;
+  border-radius: 0px;
+  background-color: var(--light_head_bg);
+  /*arrow downs*/ }
+  section.welcome img {
+    max-width: 80%; }
+  section.welcome .sc-down {
+    padding-top: 50px; }
 section.directors_note img {
   float: right;
   padding-left: 1rem;
   border-radius: 10%; }
+section.sponsors #container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+section.sponsors .item {
+  flex: 0 0 calc(30% - 20px);
+  background: teal;
+  color: white;
+  padding: 20px;
+  margin: 10px; }
+section.sponsors * {
+  box-sizing: border-box; }
 section.biographies img {
   float: right;
   padding-left: 1rem;
@@ -190,11 +154,43 @@ section.biographies div.position h3 {
 section.biographies div.position hr {
   background: #A51D37; }
 
-section.biographies image {
-  float: right;
-  padding-left: 1rem;
-  border-radius: 30%; }
-section.biographies .position h3 {
-  color: #A51D37; }
-section.biographies .position hr {
-  background: #A51D37; }
+#gx-logo {
+  animation: tronFilter 12s infinite;
+  fill: #000000;
+  stroke: #666;
+  stroke-width: 1;
+  stroke-linecap: round;
+  stroke-linejoin: bevel; }
+
+@keyframes tronFilter {
+  0% {
+    -webkit-filter: drop-shadow(-0.75px 0px 6px #f8f8ff);
+    filter: drop-shadow(-0.75px 0px 6px #f8f8ff);
+    stroke: #f8f8ff; }
+  22% {
+    -webkit-filter: drop-shadow(-0.75px 0px 6px #faebd7);
+    filter: drop-shadow(-0.75px 0px 6px #faebd7);
+    stroke: #faebd7; }
+  /* end blue */
+  42% {
+    -webkit-filter: drop-shadow(-0.75px 0px 6px #28282B);
+    filter: drop-shadow(-0.75px 0px 6px #28282B);
+    stroke: #28282B; }
+  62% {
+    -webkit-filter: drop-shadow(-0.75px 0px 6px #000000);
+    filter: drop-shadow(-0.75px 0px 6px #000000);
+    stroke: #000000; }
+  /* end magenta */
+  82% {
+    -webkit-filter: drop-shadow(-0.75px 0px 6px #A51D37);
+    filter: drop-shadow(-0.75px 0px 6px #A51D37);
+    stroke: #A51D37; }
+  92% {
+    -webkit-filter: drop-shadow(-0.75px 0px 6px #f8f8ff);
+    filter: drop-shadow(-0.75px 0px 6px #f8f8ff);
+    stroke: #f8f8ff; }
+  /* end green */
+  100% {
+    -webkit-filter: drop-shadow(-0.75px 0px 6px #28282B);
+    filter: drop-shadow(-0.75px 0px 6px #28282B);
+    stroke: #28282B; } }
