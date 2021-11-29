@@ -7,7 +7,7 @@ html {
   --lightBg: #e6e6e6;
   --lightColor: #232323;
   --lightimg: url(../images/shapes.svg);
-  --light_head_bg: #e6e6e6;
+  --light_head_bg: #CEC4AB;
   --light_title_color:#1F2F5F; }
 
 html[data-theme='dark'] {
@@ -16,7 +16,7 @@ html[data-theme='dark'] {
   --lightBg: #494949;
   --lightColor: #fff;
   --lightimg: url(../images/gradient.svg);
-  --light_head_bg: #494949;
+  --light_head_bg: #605B52;
   --light_title_color:#74c4d6; }
 
 body {
@@ -77,6 +77,15 @@ section {
       background-color: #E2E8F0;
       transition: .4s all ease; }
 
+.columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%; }
+
+.column {
+  flex: 33.33%; }
+
 .ph_silent {
   border-radius: 0rem;
   margin-bottom: 0rem;
@@ -123,10 +132,11 @@ section {
 section.welcome {
   background-size: cover;
   border-radius: 0px;
-  background-color: var(--light_head_bg);
   /*arrow downs*/ }
   section.welcome img {
     max-width: 80%; }
+  section.welcome .jumbotron {
+    background-color: var(--light_head_bg); }
   section.welcome .sc-down {
     padding-top: 50px; }
 section.directors_note img {
