@@ -105,19 +105,6 @@ section{
 }
 
 
-//grid 
-
-.columns {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.column {
-  flex: 33.33%;
-}
-
 //silence phone dialog
 .ph_silent{
     border-radius: 0rem;
@@ -181,6 +168,10 @@ section{
 /////////////////
 section{
 	
+	&.centered{
+		text-align: center;
+	}
+	
 	&.welcome{
 		background-size: cover;
 		border-radius:0px;
@@ -197,17 +188,8 @@ section{
 			padding-top: 50px;
 			
 		}
-
-	
-	
 }
-	&.directors_note{
-		img {
-			float:right;
-			padding-left: 1rem;
-			border-radius: 10%;
-			}
-	}
+	
 	&.sponsors{
 		#container {
 		  display: flex;
@@ -227,7 +209,24 @@ section{
 		  box-sizing: border-box;
 		}
 	}
-	&.biographies{
+	
+	
+}
+
+
+/////////////////
+// sub-section styles
+/////////////////
+
+div{
+	&.note{
+		img {
+			float:right;
+			padding-left: 1rem;
+			border-radius: 10%;
+			}
+	}
+	&.bio{
 		img{
 			float:right;
 			padding-left: 1rem;
@@ -248,7 +247,7 @@ section{
 
 
 
-#gx-logo {animation:tronFilter 12s infinite; 
+#gx-logo {animation:tronFilter 6s infinite; 
    						 fill:#000000; stroke:#666; stroke-width:1; stroke-linecap:round; stroke-linejoin:bevel;}
 					
 						@keyframes tronFilter {
@@ -257,10 +256,10 @@ section{
 					   22% {-webkit-filter: drop-shadow( -.75px 0px 6px #faebd7 );
 									filter: drop-shadow( -.75px 0px 6px #faebd7); stroke:#faebd7;} /* end blue */  
 
-					   42% {-webkit-filter: drop-shadow( -.75px 0px 6px #28282B );
-									filter: drop-shadow( -.75px 0px 6px #28282B ); stroke:#28282B;}
-					   62% {-webkit-filter: drop-shadow( -.75px 0px 6px #000000 );
-									filter: drop-shadow( -.75px 0px 6px #000000 ); stroke:#000000;} /* end magenta */  
+					   42% {-webkit-filter: drop-shadow( -.75px 0px 6px #1f2f5f );
+									filter: drop-shadow( -.75px 0px 6px #1f2f5f ); stroke:#1f2f5f ;}
+					   62% {-webkit-filter: drop-shadow( -.75px 0px 6px #f8f8ff );
+									filter: drop-shadow( -.75px 0px 6px #f8f8ff ); stroke:#000000;} /* end magenta */  
 					   82% {-webkit-filter: drop-shadow( -.75px 0px 6px #A51D37 );
 									filter: drop-shadow( -.75px 0px 6px #A51D37 ); stroke:#A51D37;}
 					   92% {-webkit-filter: drop-shadow( -.75px 0px 6px #f8f8ff );
@@ -268,6 +267,7 @@ section{
 					  100% {-webkit-filter: drop-shadow( -.75px 0px 6px #28282B );
 									filter: drop-shadow( -.75px 0px 6px #28282B ); stroke:#28282B;} 
 }
+
 
 
 
