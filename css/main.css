@@ -122,6 +122,8 @@ a {
 .navbar.cnav {
   background: #1F2F5F;
   color: #fff; }
+  .navbar.cnav.padded {
+    top: 50px; }
   .navbar.cnav .navbar-brand {
     color: #fff; }
   .navbar.cnav button.navbar-toggler {

@@ -186,6 +186,9 @@ a{
 
 //headline
 .navbar.cnav{
+	&.padded{
+		top:50px;
+	}
 	background: $primary;
 	color:$white;
 	.navbar-brand{
