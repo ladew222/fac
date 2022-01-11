@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap");
 html {
-  width: 100%;
   height: 100vh;
   background: var(--lightBg);
   --lightBtn: #A51D37;
@@ -163,19 +162,9 @@ section.welcome {
     background-color: var(--light_head_bg); }
   section.welcome .sc-down {
     padding-top: 50px; }
-section.sponsors #container {
-  margin-top: 16px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
-section.sponsors .item {
-  flex: 0 0 calc(30% - 20px);
-  background: teal;
-  color: white;
-  padding: 20px;
-  margin: 10px; }
-section.sponsors * {
-  box-sizing: border-box; }
+section.sponsors {
+  background: #ccc;
+  margin-top: -50px; }
 
 div.note img.portrait {
   float: right;

@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	  
     <!-- TemplateBeginEditable name="doctitle" -->
     <title>FAC Program</title>
     <!-- TemplateEndEditable -->
@@ -102,7 +103,7 @@
         <div class="row">
           <div class="col-md-4 col-12">
             <h3 class="text-center">Box Office</h3>
-            <p>For Our Patrons link: TBD (Is there a shortened link for Box Office?)
+            <p><a href="https://www.viterbo.edu/fine-arts-center/box-office-information">For Our Patrons</a>
 				FAC Ads/Info
 				Season Tickets/Individual Tickets on Sale for Presenting Series
 				Upcoming Conservatory shows
@@ -116,9 +117,9 @@
               <strong>Viterbo Fine Arts Center</strong><br>
               900 Viterbo Drive<br>
               La Crosse WI, 54650<br>
-              <abbr title="Phone">P:</abbr> 608-796-3737
-			  <abbr title="Email">E:</abbr> <a href="mailto:finearts@viterbo.edu">finearts@viterbo.edu</a>
-				<a href="www.viterbo.edu/fac">www.viterbo.edu/fac</a>
+              608-796-3737 | 
+			  <a href="mailto:finearts@viterbo.edu">finearts@viterbo.edu</a>
+			  <a href="www.viterbo.edu/fac">www.viterbo.edu/fac</a>
             </address>
           </div>
      
@@ -130,7 +131,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <p>Copyright 2021 © Viterbo University. All rights reserved.</p>
+            <p>Copyright 2022 © Viterbo University. All rights reserved.</p>
           </div>
         </div>
       </div>
