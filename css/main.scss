@@ -41,23 +41,32 @@ img{
 }
 
 .columns {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-	padding: 40px;
-}
-
-.column {
-  flex-basis: 100%;
-	padding: 10px 10px 10px 10px ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 	text-align: center;
 }
+.columns > .column  {
+    flex: 1 1 30%; /*grow | shrink | basis */
+    height: 180px;
+	
+}
 
-@media screen and (min-width: 500px) {
-  .column {
-    flex: 1;
+
+
+@media (max-width: 400px) {
+  .flex-grid,
+  .flex-grid-thirds {
+    display: block;
+    .col {
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
   }
 }
+
+
 //global styles for text
 p{
 	 color: var(--lightColor);
