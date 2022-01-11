@@ -222,6 +222,7 @@ section{
 		img{
 			//max-width: 80%;
 			margin-top: 60px;
+			max-width: 100%;
 		}
 
 		.jumbotron{
@@ -236,9 +237,13 @@ section{
 }
 
 	&.sponsors{
-		background:$grey;
+		background:$white;
 		margin-top: -50px;
 
+	}
+	&.info{
+		background:$white;
+		margin-top: -50px;
 	}
 
 

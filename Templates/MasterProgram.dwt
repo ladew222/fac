@@ -59,6 +59,9 @@
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#president">President</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#notes">Notes</a>
           </li>
@@ -66,18 +69,8 @@
             <a class="nav-link" href="#bios">Biographies</a>
           </li>
 		  <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#president">Get In Touch</a>
           </li>
-		  <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-		  <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-		  <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-			
 			<!-- TemplateEndEditable -->
         </ul>
       </div>
@@ -97,22 +90,14 @@
 	  <!-- Snipits End Here -->
 	  <!-- Snipits End Here -->
 	
-	
+	<br/>
     <div class="section foot"> 
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-12">
-            <h3 class="text-center">Box Office</h3>
-            <p><a href="https://www.viterbo.edu/fine-arts-center/box-office-information">For Our Patrons</a>
-				FAC Ads/Info
-				Season Tickets/Individual Tickets on Sale for Presenting Series
-				Upcoming Conservatory shows
-				Linkable “Buttons” that also have curved edges
-				Purchase Tickets
-		    </p>
+            <h3 class="text-center"><a href="https://www.viterbo.edu/fine-arts-center/box-office-information">For Our Patrons</a></h3>
           </div>
           <div class="col-md-4 col-12">
-            <h3 class="text-center">GET IN TOUCH</h3>
             <address class="text-center">
               <strong>Viterbo Fine Arts Center</strong><br>
               900 Viterbo Drive<br>
@@ -121,8 +106,13 @@
 			  <a href="mailto:finearts@viterbo.edu">finearts@viterbo.edu</a>
 			  <a href="www.viterbo.edu/fac">www.viterbo.edu/fac</a>
             </address>
+
+			
           </div>
-     
+		  <div class="col-md-4 col-12">
+           <p class="text-center">Copyright 2022 © Viterbo University.<br/>All rights reserved.</p>
+
+          </div>
         </div>
       </div>
     </div>
@@ -131,7 +121,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <p>Copyright 2022 © Viterbo University. All rights reserved.</p>
+			  
           </div>
         </div>
       </div>

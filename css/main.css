@@ -157,13 +157,17 @@ section.welcome {
   border-radius: 0px;
   /*arrow downs*/ }
   section.welcome img {
-    margin-top: 60px; }
+    margin-top: 60px;
+    max-width: 100%; }
   section.welcome .jumbotron {
     background-color: var(--light_head_bg); }
   section.welcome .sc-down {
     padding-top: 50px; }
 section.sponsors {
-  background: #ccc;
+  background: #fff;
+  margin-top: -50px; }
+section.info {
+  background: #fff;
   margin-top: -50px; }
 
 div.note img.portrait {
