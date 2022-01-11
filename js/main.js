@@ -34,4 +34,9 @@ $(document).ready(function() {
 		//event.preventDefault();
 		
 	});
+	$('.close').click(function() {
+		//event.preventDefault();
+		$(".navbar").removeClass("padded");
+		
+	});
 });
