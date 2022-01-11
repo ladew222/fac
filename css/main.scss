@@ -214,7 +214,9 @@ section{
 	&.centered{
 		text-align: center;
 	}
-	
+	&.ads{
+		margin-top:24px;
+	}
 	&.welcome{
 		background-size: cover;
 		border-radius:0px;

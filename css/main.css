@@ -151,6 +151,8 @@ a {
 
 section.centered {
   text-align: center; }
+section.ads {
+  margin-top: 24px; }
 section.welcome {
   background-size: cover;
   border-radius: 0px;
