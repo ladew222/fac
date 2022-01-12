@@ -37,7 +37,7 @@ img {
 .columns > .column {
   flex: 1 1 30%;
   /*grow | shrink | basis */
-  height: 180px; }
+  height: 80px; }
 
 @media (max-width: 400px) {
   .flex-grid,
