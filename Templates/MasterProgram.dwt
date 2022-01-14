@@ -96,8 +96,9 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-12">
+			  <br>
             <h3 class="text-center">
-				<a href="https://www.viterbo.edu/fine-arts-center/box-office-information" class="btn btn-info" role="button">For Our Patrons</a>
+				<a href="https://www.viterbo.edu/fine-arts-center/box-office-information" id="touch" class="btn btn-lg btn-info" role="button">Information for our Patrons</a>
 				</h3>
           </div>
           <div class="col-md-4 col-12">

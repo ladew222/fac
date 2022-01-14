@@ -11,6 +11,7 @@ html {
   ///default styles
   width: 100%;
   height: 100vh;
+  font-size: 1.2rem;
   background: var(--lightBg);
 	//light colors
   --lightBtn: #{$secondary};
@@ -68,9 +69,10 @@ img{
 
 
 //global styles for text
-p{
+html,p,li,strong,address{
 	 color: var(--lightColor);
 }
+
 
 h1,h2,h3,h4,h5{
 	 color: var(--lightColor);
@@ -164,6 +166,7 @@ div.foot{
 	}
 	strong{
 		font-size:.9rem;
+		color:$white !important;
 	}
 	a.close{
 		padding: 0.4rem 0.6rem;
@@ -227,22 +230,38 @@ section{
 	}
 	&.ads{
 		margin-top:24px;
-	
-		.col-12,.col-md-12{
+		
+		@media (max-width: 480px) {
+			.col-12,.col-md-12{
 			padding: 0px !important;
 		}
+		}
+	
 	}
 	&.welcome{
+		background:#e6e6e6;
+		margin-top: -50px;
+		color:$black !important;
+		p{
+			color:$black !important;
+		}
+		strong{
+			color:$black !important;
+		}
 		background-size: cover;
 		border-radius:0px;
 		img{
 			//max-width: 80%;
-			margin-top: 60px;
+			margin-top: 100px;
 			max-width: 100%;
 		}
 
 		.jumbotron{
-			background-color: var(--light_head_bg);
+			background:#e6e6e6;
+			//background-color: var(--light_head_bg);
+			h3{
+				color:$black;
+			}
 		}
 
 		/*arrow downs*/
@@ -260,6 +279,13 @@ section{
 	&.info{
 		background:$white;
 		margin-top: -50px;
+		color:$black !important;
+		p{
+			color:$black !important;
+		}
+		strong{
+			color:$black !important;
+		}
 	}
 
 
