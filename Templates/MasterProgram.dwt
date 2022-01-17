@@ -92,7 +92,7 @@
 	  <!-- Snipits End Here -->
 	  <!-- Snipits End Here -->
 
-    <div class="section foot"> 
+    <div class="section foot" id="touch"> 
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-12">
@@ -104,10 +104,10 @@
             <address class="text-center">
               <strong>Viterbo Fine Arts Center</strong><br>
               900 Viterbo Drive<br>
-              La Crosse WI, 54650<br>
+              La Crosse, WI 54650<br>
               608-796-3737 | 
 			  <a href="mailto:finearts@viterbo.edu">finearts@viterbo.edu</a>
-			  <a href="www.viterbo.edu/fac">www.viterbo.edu/fac</a>
+			  <br><a href="www.viterbo.edu/fac">www.viterbo.edu/fac</a>
             </address>
 
 			  
