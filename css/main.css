@@ -199,6 +199,8 @@ section.info {
   background: #fff;
   margin-top: -50px;
   color: #000; }
+  section.info p {
+    color: #000; }
 
 div.note img.portrait {
   float: right;
