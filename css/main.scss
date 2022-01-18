@@ -217,6 +217,28 @@ a{
 		font-size: 2rem;
 	}
 }
+
+
+.hr5 {
+  border: 0;
+  border-top: medium double #CCC;
+  height: 12px;
+  overflow: visible;
+  padding: 0;
+  color: $primary;
+  text-align: center;
+	&:after{
+	  content: "...";
+	  display: inline-block;
+	  position: relative;
+	  top: -0.7em;
+	  font-size: 11.4em;
+	  padding: 0 1em;		
+	}
+}
+
+
+
 /////////////////
 //section styles
 /////////////////
@@ -260,6 +282,7 @@ section{
 	&.info{
 		background:$white;
 		margin-top: -50px;
+		color:$black;
 	}
 
 

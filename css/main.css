@@ -159,6 +159,22 @@ a {
   .headline .htext {
     font-size: 2rem; }
 
+.hr5 {
+  border: 0;
+  border-top: medium double #CCC;
+  height: 12px;
+  overflow: visible;
+  padding: 0;
+  color: #1F2F5F;
+  text-align: center; }
+  .hr5:after {
+    content: "...";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 11.4em;
+    padding: 0 1em; }
+
 section.centered {
   text-align: center; }
 section.ads {
@@ -181,7 +197,8 @@ section.sponsors {
   margin-top: -50px; }
 section.info {
   background: #fff;
-  margin-top: -50px; }
+  margin-top: -50px;
+  color: #000; }
 
 div.note img.portrait {
   float: right;
