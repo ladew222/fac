@@ -34,6 +34,10 @@ html[data-theme='dark'] {
 }
 body{
 	 background: var(--lightBg);
+	 @media only screen and (min-width: 600px) {
+  		 padding-right: calc((100vw - 420px)/2); /* Corresponds to 10% of the viewport width */
+		 padding-left: calc((100vw - 420px)/2); /* Corresponds to 10% of the viewport width */
+	}	
 }
 
 img{
