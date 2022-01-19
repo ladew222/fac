@@ -61,6 +61,48 @@ img{
 
 
 
+/* ditch the ugle blue outline */
+
+.navbar-toggler:focus,
+
+.navbar-toggler:active {
+
+    outline: 0;
+
+}
+
+
+
+/* ditch the ugle blue outline */
+
+.navbar-toggler:focus,
+
+.navbar-toggler:active {
+
+    outline: 0;
+
+}
+
+
+
+/* hide close when burger shown */
+
+.navbar-toggler.collapsed .close-icon {
+
+    display: none;
+
+}
+
+
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+
+    display: inline;
+
+}
+
+
+
 @media (max-width: 400px) {
   .flex-grid,
   .flex-grid-thirds {
@@ -286,6 +328,11 @@ section{
 		background:$white;
 		margin-top: -50px;
 		padding-bottom: 16px;
+		color:$black;
+		p,h1,h2,h3,h4,h5{
+			color:$black;
+		}
+		
 
 	}
 	&.info{
