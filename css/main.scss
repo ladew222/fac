@@ -6,6 +6,7 @@ $white:#fff;
 $black:#000;
 $alt_title:#74c4d6;
 $grey:#ccc;
+$light_bk:#CEC4AB;
 
 html {
   ///default styles
@@ -40,6 +41,7 @@ body{
 	}	
 }
 
+
 img{
 	max-width:100%;
 }
@@ -53,7 +55,7 @@ img{
 }
 .columns > .column  {
     flex: 1 1 30%; /*grow | shrink | basis */
-    height: 180px;
+    height: 110px;
 	
 }
 
@@ -261,14 +263,16 @@ section{
 	&.welcome{
 		background-size: cover;
 		border-radius:0px;
+		background-color: $light_bk;
 		img{
 			//max-width: 80%;
-			margin-top: 60px;
+			margin-top: 90px;
 			max-width: 100%;
 		}
 
 		.jumbotron{
-			background-color: var(--light_head_bg);
+			//background-color: var(--light_head_bg);
+			background-color: $light_bk;
 		}
 
 		/*arrow downs*/
@@ -281,15 +285,16 @@ section{
 	&.sponsors{
 		background:$white;
 		margin-top: -50px;
+		padding-bottom: 16px;
 
 	}
 	&.info{
-		background:$white;
+	/*	background:$white;
 		margin-top: -50px;
 		color:$black;
 		p{
 			color:$black;
-		}
+		}*/
 	}
 
 
