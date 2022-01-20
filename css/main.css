@@ -43,7 +43,7 @@ img {
 .columns > .column {
   flex: 1 1 30%;
   /*grow | shrink | basis */
-  height: 180px; }
+  height: 110px; }
 
 @media (max-width: 400px) {
   .flex-grid,
@@ -190,23 +190,26 @@ section.ads {
 section.welcome {
   background-size: cover;
   border-radius: 0px;
+  background-color: #CEC4AB;
   /*arrow downs*/ }
   section.welcome img {
-    margin-top: 60px;
+    margin-top: 90px;
     max-width: 100%; }
   section.welcome .jumbotron {
-    background-color: var(--light_head_bg); }
+    background-color: #CEC4AB; }
   section.welcome .sc-down {
     padding-top: 50px; }
 section.sponsors {
   background: #fff;
-  margin-top: -50px; }
-section.info {
-  background: #fff;
   margin-top: -50px;
-  color: #000; }
-  section.info p {
-    color: #000; }
+  padding-bottom: 16px; }
+section.info {
+  /*	background:$white;
+  	margin-top: -50px;
+  	color:$black;
+  	p{
+  		color:$black;
+  	}*/ }
 
 div.note img.portrait {
   float: right;
