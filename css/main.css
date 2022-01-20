@@ -45,6 +45,23 @@ img {
   /*grow | shrink | basis */
   height: 110px; }
 
+/* ditch the ugle blue outline */
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: 0; }
+
+/* ditch the ugle blue outline */
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: 0; }
+
+/* hide close when burger shown */
+.navbar-toggler.collapsed .close-icon {
+  display: none; }
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+  display: inline; }
+
 @media (max-width: 400px) {
   .flex-grid,
   .flex-grid-thirds {
@@ -202,7 +219,10 @@ section.welcome {
 section.sponsors {
   background: #fff;
   margin-top: -50px;
-  padding-bottom: 16px; }
+  padding-bottom: 16px;
+  color: #000; }
+  section.sponsors p, section.sponsors h1, section.sponsors h2, section.sponsors h3, section.sponsors h4, section.sponsors h5 {
+    color: #000; }
 section.info {
   /*	background:$white;
   	margin-top: -50px;
