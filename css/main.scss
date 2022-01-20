@@ -55,7 +55,7 @@ img{
 }
 .columns > .column  {
     flex: 1 1 30%; /*grow | shrink | basis */
-    height: 110px;
+    height: 80px;
 	
 }
 
@@ -120,14 +120,14 @@ p{
 	 color: var(--lightColor);
 }
 
-h1,h2,h3,h4,h5{
+h1,h2,h3,h4,h5,li,em,html{
 	 color: var(--lightColor);
 }
 
 
 h3{
 	font-family: Roboto Slab, Tahoma;
-	font-size: 1.45rem;
+	font-size: 1.25rem;
 	font-weight: 200;
 	
 }
@@ -306,6 +306,10 @@ section{
 		background-size: cover;
 		border-radius:0px;
 		background-color: $light_bk;
+		color:$black;
+		p,h1,h2,h3,h4,h5{
+			color:$black;
+		}
 		img{
 			//max-width: 80%;
 			margin-top: 90px;
@@ -332,16 +336,22 @@ section{
 		p,h1,h2,h3,h4,h5{
 			color:$black;
 		}
-		
+		.headline{
+			color:$black;	
+		}
+		.dot{
+			color:$black;	
+			background-color: $black;
+		}
 
 	}
 	&.info{
-	/*	background:$white;
+		background:$white;
 		margin-top: -50px;
 		color:$black;
 		p{
 			color:$black;
-		}*/
+		}
 	}
 
 
@@ -381,10 +391,19 @@ div{
 			}
 		}
 	}
+	&.one_bio{
+		 color: var(--lightColor);
+	}
 	&.text-area{
 		text-align: left;
 		&.centered{
 			text-align: center;
 		}	
+	}
+	&.foot{
+		strong{
+			color: var(--lightColor);
+		}
+		color: var(--lightColor);
 	}
 }

@@ -43,7 +43,7 @@ img {
 .columns > .column {
   flex: 1 1 30%;
   /*grow | shrink | basis */
-  height: 110px; }
+  height: 80px; }
 
 /* ditch the ugle blue outline */
 .navbar-toggler:focus,
@@ -73,12 +73,12 @@ img {
 p {
   color: var(--lightColor); }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, li, em, html {
   color: var(--lightColor); }
 
 h3 {
   font-family: Roboto Slab, Tahoma;
-  font-size: 1.45rem;
+  font-size: 1.25rem;
   font-weight: 200; }
 
 h5 {
@@ -208,7 +208,10 @@ section.welcome {
   background-size: cover;
   border-radius: 0px;
   background-color: #CEC4AB;
+  color: #000;
   /*arrow downs*/ }
+  section.welcome p, section.welcome h1, section.welcome h2, section.welcome h3, section.welcome h4, section.welcome h5 {
+    color: #000; }
   section.welcome img {
     margin-top: 90px;
     max-width: 100%; }
@@ -223,13 +226,17 @@ section.sponsors {
   color: #000; }
   section.sponsors p, section.sponsors h1, section.sponsors h2, section.sponsors h3, section.sponsors h4, section.sponsors h5 {
     color: #000; }
+  section.sponsors .headline {
+    color: #000; }
+  section.sponsors .dot {
+    color: #000;
+    background-color: #000; }
 section.info {
-  /*	background:$white;
-  	margin-top: -50px;
-  	color:$black;
-  	p{
-  		color:$black;
-  	}*/ }
+  background: #fff;
+  margin-top: -50px;
+  color: #000; }
+  section.info p {
+    color: #000; }
 
 div.note img.portrait {
   float: right;
@@ -246,7 +253,13 @@ div.bio div.position h3 {
   font-size: 1.55rem; }
 div.bio div.position hr {
   background: var(--light_red); }
+div.one_bio {
+  color: var(--lightColor); }
 div.text-area {
   text-align: left; }
   div.text-area.centered {
     text-align: center; }
+div.foot {
+  color: var(--lightColor); }
+  div.foot strong {
+    color: var(--lightColor); }
