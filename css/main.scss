@@ -307,7 +307,7 @@ section{
 		border-radius:0px;
 		background-color: $light_bk;
 		color:$black;
-		p,h1,h2,h3,h4,h5{
+		p,h1,h2,h3,h4,h5,.htext{
 			color:$black;
 		}
 		img{
@@ -349,8 +349,13 @@ section{
 		background:$white;
 		margin-top: -50px;
 		color:$black;
-		p{
+		p,em,a{
 			color:$black;
+		}
+		.headline{
+			.dot{
+				background-color:$primary;
+			}
 		}
 	}
 

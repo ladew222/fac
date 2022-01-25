@@ -210,7 +210,7 @@ section.welcome {
   background-color: #CEC4AB;
   color: #000;
   /*arrow downs*/ }
-  section.welcome p, section.welcome h1, section.welcome h2, section.welcome h3, section.welcome h4, section.welcome h5 {
+  section.welcome p, section.welcome h1, section.welcome h2, section.welcome h3, section.welcome h4, section.welcome h5, section.welcome .htext {
     color: #000; }
   section.welcome img {
     margin-top: 90px;
@@ -235,8 +235,10 @@ section.info {
   background: #fff;
   margin-top: -50px;
   color: #000; }
-  section.info p {
+  section.info p, section.info em, section.info a {
     color: #000; }
+  section.info .headline .dot {
+    background-color: #1F2F5F; }
 
 div.note img.portrait {
   float: right;
