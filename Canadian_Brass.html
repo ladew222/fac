@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/MasterProgram.dwt" codeOutsideHTMLIsLocked="false" -->
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=.8">
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>FAC Program</title>
+    <!-- InstanceEndEditable -->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	  <link href="css/main.css" rel="stylesheet">
+  <!-- InstanceBeginEditable name="head" -->
+  <!-- InstanceEndEditable -->
+  </head>
+  <body>
+  <div class="ph_silent alert alert-dark alert-dismissible pagewide fixed-top">	
+	  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+	  <strong><svg id="Layer_1" width="24" height="24" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58.5 47.73"><defs><style>.cls-1{fill:#fff;}</style></defs><polygon class="cls-1" points="18.48 37.16 34.07 47.73 34.07 0 18.48 10.57 18.48 37.16"/><path class="cls-1" d="M-2.89,11.55H-14.31a4.35,4.35,0,0,0-4.17,4.51V31.67a4.35,4.35,0,0,0,4.17,4.51H-2.89Z" transform="translate(18.48)"/><path class="cls-1" d="M39.71,14.44a1,1,0,0,0-1.54,0L31,22.2l-7.15-7.76a1,1,0,0,0-1.54,0,1.25,1.25,0,0,0,0,1.66l7.16,7.77-7.16,7.76a1.25,1.25,0,0,0,0,1.66,1,1,0,0,0,1.54,0L31,25.53l7.15,7.76a1,1,0,0,0,1.54,0,1.25,1.25,0,0,0,0-1.66l-7.16-7.76,7.16-7.77a1.25,1.25,0,0,0,0-1.66" transform="translate(18.48)"/></svg>Thank you for silencing your phone</strong>
+	</div>
+     <nav class="navbar fixed-top cnav navbar-expand-lg navbar-dark padded">
+      <a class="navbar-brand" href="#"> 
+		 
+
+		  <svg width="210" id="logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 359.02 77.82"><defs><style>.clss-1{fill:#fff;}.clss-2{fill:#a71f36;}</style></defs><circle class="clss-1" cx="38.91" cy="38.91" r="38.91"/><path class="clss-2" d="M40,8.2A36.89,36.89,0,1,0,76.63,45.12,36.93,36.93,0,0,0,40,8.2Zm8.73,27.51H54v3.15l-5.35,7.63Zm-11.24-16c.05-.58,2,3.87.09,4.89-2.22,1.23-.5,3.8,1,5.55A6.06,6.06,0,0,1,38,28.31c0-.56.24-1.68.81-1.87,1.19-.4.47-2.94.77-2.64,2.9,2.87,2.36,5.12,1.39,6.49h.12c1.46-1.55,2.86-4.12,1.38-6.78a8.69,8.69,0,0,0-2.58-2.32c-.62-.52-.71-1.39.08-2.36a7.26,7.26,0,0,0,1.1-2.72c.24,2.07,3.57,4.63,4.27,5.59a6,6,0,0,1,.86,5.44,6,6,0,0,1-1.82,3.15h4.13L47.2,33.14H32.31L31,30.29h4.61C30.2,25.48,37.26,21.64,37.44,19.75ZM46,50.81l-6.22,8.6-6.23-8.6,0-15.11H45.92ZM25.46,35.71H30.8V46.49l-5.34-7.63Zm0,24.12V55.59c3.38,4.82,7,10,10,14.28C25,67.89,25.46,59.83,25.46,59.83Zm18.6,10c3-4.32,6.58-9.46,10-14.28v4.24S54.46,67.89,44.06,69.87Zm-4.32,2.42L14.29,35.71h6.05l19.4,27.81L59.15,35.71h6Z" transform="translate(-0.83 -6.17)"/><polygon class="clss-2" points="38.91 49.82 41.34 45.77 36.49 45.77 38.91 49.82"/><path class="clss-2" d="M36.27,42.1h1.91a1.8,1.8,0,0,0,.55.55v6.52h2V42.65a1.8,1.8,0,0,0,.55-.55h1.91v-2H41.31a1.8,1.8,0,0,0-.55-.55V38.07h-2v1.45a1.8,1.8,0,0,0-.55.55H36.27Zm2.63-1a.85.85,0,1,1,.84.85A.85.85,0,0,1,38.9,41.08Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M104,36.07,96.19,54.9H93.11L85.24,36.07h5.68L93.57,43l1.31,4.07L96.14,43l2.49-6.94Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M107.49,36.07h5.15V54.9h-5.15Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M133.68,40.57h-6.1V54.9h-5.12V40.57h-6v-4.5h17.24Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M151.12,50.48V54.9H137.46V36.07h13.6v4.45h-8.54V43.2H150v4.36h-7.5v2.92Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M162.47,50.08h-2.2V54.9h-5V36.07h7.9c4.84,0,7.71,3,7.71,7.13a6.42,6.42,0,0,1-3.56,5.86l4.07,5.84h-5.84Zm-2.2-4.26h2.5a2.72,2.72,0,0,0,3-2.68,2.77,2.77,0,0,0-3.07-2.81h-2.42Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M190.7,49.49c0,3.35-2.15,5.41-7.56,5.41h-8V36.07h7.74c5.06,0,7.12,2.12,7.12,5.09A4,4,0,0,1,187,45,4.31,4.31,0,0,1,190.7,49.49Zm-8-9.56H180V43.6h2.76c1.58,0,2.38-.67,2.38-1.85S184.32,39.93,182.74,39.93Zm3.06,9.18c0-1.25-.81-1.87-2.63-1.87H180V51h3.16C184.94,51,185.8,50.29,185.8,49.11Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M193.35,45.42c0-5.55,4.31-9.78,10.15-9.78s10,4.1,10,9.78a9.65,9.65,0,0,1-10,9.8A9.77,9.77,0,0,1,193.35,45.42Zm15,0a4.8,4.8,0,0,0-4.82-5.14,4.87,4.87,0,0,0-4.93,5.14,4.93,4.93,0,0,0,4.93,5.17A4.86,4.86,0,0,0,208.32,45.42Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M218.09,47.71V36.62a.26.26,0,0,1,.29-.29h1.28a.26.26,0,0,1,.28.29V47.68c0,3.53,1.78,5.52,4.74,5.52s4.76-2,4.76-5.52V36.62a.26.26,0,0,1,.28-.29H231c.18,0,.26.11.26.29v11c0,4.55-2.51,7.24-6.56,7.24S218.09,52.21,218.09,47.71Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M236.45,54.35V36.62a.26.26,0,0,1,.29-.29h1c.21,0,.31.13.42.29l8.68,13.15.86,1.52V36.62a.27.27,0,0,1,.29-.29h1.31c.18,0,.26.11.26.29V54.35c0,.18-.08.29-.26.29h-1a.43.43,0,0,1-.42-.29l-8.71-13.21-.89-1.51V54.35a.26.26,0,0,1-.28.29h-1.28A.26.26,0,0,1,236.45,54.35Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M255,54.35V36.62a.26.26,0,0,1,.28-.29h1.28a.26.26,0,0,1,.29.29V54.35a.26.26,0,0,1-.29.29H255.3A.26.26,0,0,1,255,54.35Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M275.65,36.62l-6.8,17.73a.37.37,0,0,1-.37.29h-1a.42.42,0,0,1-.4-.26l-6.79-17.76c-.06-.13-.06-.18,0-.24a.34.34,0,0,1,.23-.05H262c.16,0,.23.11.31.29l5.31,14.17.39,1.42.37-1.42,5.28-14.17c0-.18.13-.29.31-.29h1.47a.27.27,0,0,1,.21.08C275.7,36.44,275.7,36.49,275.65,36.62Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M280.85,38v6.14h7.33c.18,0,.28.08.28.29v1.1a.25.25,0,0,1-.28.28h-7.33V53h8.63c.16,0,.26.08.26.29v1.1a.26.26,0,0,1-.26.29H279.29a.26.26,0,0,1-.29-.29V36.62a.26.26,0,0,1,.29-.29h10.19a.26.26,0,0,1,.26.29v1.1c0,.21-.1.29-.26.29Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M306,54.64h-1.54a.3.3,0,0,1-.32-.24l-3.32-7.11c-.23-.5-.47-.63-.86-.63h-4.21v7.69a.27.27,0,0,1-.29.29h-1.28a.27.27,0,0,1-.29-.29V36.62a.27.27,0,0,1,.29-.29h6c3.43,0,5.7,2,5.7,5.13a4.87,4.87,0,0,1-3.66,4.94,1.32,1.32,0,0,1,.55.71l3.4,7.27C306.17,54.53,306.14,54.64,306,54.64ZM300,45c2.3,0,3.85-1.39,3.85-3.5S302.32,38,300,38h-4.31v7Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M308.81,49.72c0-.21.08-.26.26-.26h1.36c.16,0,.24.08.29.26a4.09,4.09,0,0,0,1.07,2.17,4.88,4.88,0,0,0,3.56,1.31c2.35,0,3.95-1.15,3.95-3.19,0-2.22-2-3.14-4.4-4a12.21,12.21,0,0,1-4-2,4.13,4.13,0,0,1-1.31-3.14c0-2.93,2.25-4.76,5.42-4.76s5.49,1.88,5.83,5.15c0,.19-.06.26-.24.26h-1.36c-.18,0-.26-.07-.29-.26a3.7,3.7,0,0,0-1.41-2.69,4,4,0,0,0-2.53-.76c-2.07,0-3.48,1.15-3.48,2.93,0,2.14,2,2.85,4.1,3.63,2.64,1,5.57,2.07,5.57,5.57,0,3.14-2.32,5-5.83,5S309.2,53,308.81,49.72Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M325.5,54.35V36.62a.26.26,0,0,1,.28-.29h1.29a.26.26,0,0,1,.28.29V54.35a.26.26,0,0,1-.28.29h-1.29A.26.26,0,0,1,325.5,54.35Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M343.83,36.62v1.1c0,.21-.08.29-.26.29h-5.36V54.35a.27.27,0,0,1-.29.29h-1.28a.25.25,0,0,1-.29-.29V38h-5.28a.25.25,0,0,1-.29-.29v-1.1a.27.27,0,0,1,.29-.29h12.5C343.75,36.33,343.83,36.44,343.83,36.62Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M359.81,36.62l-6.38,10.46v7.27c0,.18-.08.29-.26.29h-1.28a.26.26,0,0,1-.29-.29V47l-6.36-10.41c-.13-.21.08-.29.21-.29H347c.19,0,.27.11.37.29L352,44.05l.6,1.23.55-1.23,4.58-7.43c.1-.18.21-.29.36-.29h1.52C359.81,36.33,359.91,36.46,359.81,36.62Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M93.63,66.78v.89a.17.17,0,0,1-.19.19H89.32v2.89h3.43a.18.18,0,0,1,.2.2v.88c0,.14-.08.19-.2.19H89.32v4a.18.18,0,0,1-.2.2h-1a.18.18,0,0,1-.2-.2V66.78a.18.18,0,0,1,.2-.19h5.32A.17.17,0,0,1,93.63,66.78Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M95.73,76.07V66.78a.18.18,0,0,1,.2-.19h1a.17.17,0,0,1,.19.19v9.29a.18.18,0,0,1-.19.2h-1A.18.18,0,0,1,95.73,76.07Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M100.09,76.07V66.78a.17.17,0,0,1,.19-.19h.82a.37.37,0,0,1,.29.19l4,6.14.46.83v-7a.17.17,0,0,1,.19-.19h1c.13,0,.18.07.18.19v9.29c0,.13-.05.2-.18.2h-.79a.32.32,0,0,1-.29-.2l-4-6.19-.47-.83v7a.18.18,0,0,1-.19.2h-1A.18.18,0,0,1,100.09,76.07Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M111.63,67.86v2.68h3.61c.12,0,.18.06.18.2v.88c0,.14-.06.2-.18.2h-3.61V75h4.3a.17.17,0,0,1,.18.19v.88c0,.13-.07.2-.18.2h-5.5a.18.18,0,0,1-.2-.2V66.78a.18.18,0,0,1,.2-.19h5.5a.17.17,0,0,1,.18.19v.89a.17.17,0,0,1-.18.19Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M129,76.27h-1.22c-.12,0-.15-.07-.21-.2L127,74.48H122.7l-.58,1.59c0,.13-.07.2-.19.2h-1.18c-.11,0-.17-.07-.12-.2l3.61-9.29c.05-.12.1-.19.23-.19h.81c.12,0,.18.07.22.18l3.6,9.3C129.15,76.2,129.1,76.27,129,76.27Zm-2.44-3-1.36-3.79-.32-1.16-.32,1.16-1.38,3.79Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M137.63,76.27h-1.18a.21.21,0,0,1-.21-.14l-1.63-3.57c-.11-.26-.21-.31-.43-.31h-1.74v3.82a.18.18,0,0,1-.2.2h-1a.18.18,0,0,1-.19-.2V66.78a.17.17,0,0,1,.19-.19h3.24c1.86,0,3.11,1.07,3.11,2.81a2.65,2.65,0,0,1-1.84,2.65.94.94,0,0,1,.35.44l1.67,3.6C137.8,76.18,137.77,76.27,137.63,76.27ZM134.36,71a1.59,1.59,0,1,0,0-3.17h-1.94V71Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M145.94,66.78v.89c0,.12,0,.19-.16.19h-2.63v8.21a.18.18,0,0,1-.19.2h-1c-.13,0-.18-.07-.18-.2V67.86h-2.58a.17.17,0,0,1-.19-.19v-.89a.17.17,0,0,1,.19-.19h6.61C145.9,66.59,145.94,66.66,145.94,66.78Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M147.1,73.5c0-.14.06-.16.2-.16h1c.13,0,.18,0,.21.16a2.12,2.12,0,0,0,.55,1,2.32,2.32,0,0,0,1.65.61c1.05,0,1.75-.51,1.75-1.4s-1-1.39-2.19-1.85a5.51,5.51,0,0,1-2-1.07,2.26,2.26,0,0,1-.71-1.74,2.67,2.67,0,0,1,3-2.64,3,3,0,0,1,3.2,2.84.16.16,0,0,1-.18.18h-1c-.11,0-.17-.06-.2-.18a1.8,1.8,0,0,0-.63-1.22,1.93,1.93,0,0,0-1.18-.36c-.93,0-1.53.51-1.53,1.29,0,1,.94,1.32,2,1.7,1.31.48,3,1.06,3,3,0,1.69-1.27,2.73-3.18,2.73A3.34,3.34,0,0,1,147.1,73.5Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M159.3,71.43c0-3,1.77-5,4.34-5a4,4,0,0,1,4.06,3.4c0,.14,0,.2-.18.2h-1c-.12,0-.19,0-.23-.2a2.65,2.65,0,0,0-2.61-2.11c-1.73,0-2.92,1.46-2.92,3.69s1.19,3.69,2.92,3.69A2.65,2.65,0,0,0,166.28,73c0-.15.11-.19.23-.19h1c.13,0,.2.06.18.19a4,4,0,0,1-4.06,3.41C161.07,76.41,159.3,74.42,159.3,71.43Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M171.38,67.86v2.68H175c.12,0,.18.06.18.2v.88c0,.14-.06.2-.18.2h-3.61V75h4.3a.17.17,0,0,1,.18.19v.88c0,.13-.07.2-.18.2h-5.5a.18.18,0,0,1-.2-.2V66.78a.18.18,0,0,1,.2-.19h5.5a.17.17,0,0,1,.18.19v.89a.17.17,0,0,1-.18.19Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M178.25,76.07V66.78a.17.17,0,0,1,.19-.19h.82a.34.34,0,0,1,.29.19l4,6.14.46.83v-7a.17.17,0,0,1,.19-.19h1a.17.17,0,0,1,.18.19v9.29c0,.13-.06.2-.18.2h-.79a.31.31,0,0,1-.29-.2l-4-6.19-.47-.83v7a.18.18,0,0,1-.2.2h-1A.18.18,0,0,1,178.25,76.07Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M194.41,66.78v.89c0,.12,0,.19-.16.19h-2.63v8.21a.18.18,0,0,1-.19.2h-1c-.14,0-.18-.07-.18-.2V67.86h-2.58a.18.18,0,0,1-.2-.19v-.89a.18.18,0,0,1,.2-.19h6.61C194.37,66.59,194.41,66.66,194.41,66.78Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M197.81,67.86v2.68h3.61c.12,0,.18.06.18.2v.88c0,.14-.06.2-.18.2h-3.61V75h4.3a.17.17,0,0,1,.18.19v.88c0,.13-.07.2-.18.2h-5.5c-.13,0-.19-.07-.19-.2V66.78a.17.17,0,0,1,.19-.19h5.5a.17.17,0,0,1,.18.19v.89a.17.17,0,0,1-.18.19Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M211.28,76.27h-1.19c-.1,0-.15,0-.21-.14l-1.63-3.57c-.11-.26-.21-.31-.43-.31h-1.74v3.82a.18.18,0,0,1-.19.2h-1a.18.18,0,0,1-.2-.2V66.78a.18.18,0,0,1,.2-.19h3.23c1.87,0,3.11,1.07,3.11,2.81a2.64,2.64,0,0,1-1.84,2.65.88.88,0,0,1,.35.44l1.67,3.6C211.44,76.18,211.42,76.27,211.28,76.27ZM208,71a1.59,1.59,0,1,0,0-3.17h-1.93V71Z" transform="translate(-0.83 -6.17)"/></svg>
+		  
+		 
+		 
+		 
+		 </a>
+		<div class="social-media order-lg-last">
+		<p class="mb-0 d-flex clickableList">
+			<label class="switch">
+			 <input type="checkbox" class="checkbox" name="mode">
+			 <span class="toggle-thumb">
+				
+				 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="padding:3px;fill:#fff; padd	transform:;-ms-filter:" class="bi bi-lightbulb-fill" viewBox="0 0 16 16">
+				  <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5z"/>
+				</svg>
+				 
+				  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="padding:3px;fill:#fff;transform:;-ms-filter:" class="bi bi-lightbulb" viewBox="0 0 16 16">
+				  <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
+				</svg>
+				 
+
+				
+
+			 </span>
+		  </label>
+		</p>
+		</div>
+		 
+		 
+		 
+      <button class="navbar-toggler collapsed border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+	  <div class="close-icon py-1">✖</div>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+			 <!-- InstanceBeginEditable name="menu" -->
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+		   <li class="nav-item">
+            <a class="nav-link" href="#show info">Show Information</a>
+          </li>
+			
+			<li class="nav-item">
+            <a class="nav-link" href="#president">President's Note</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#bios">Biographies</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#touch">Get In Touch</a>
+          </li>
+			<!-- InstanceEndEditable -->
+        </ul>
+      </div>
+    </nav>
+	  
+	  <!-- Snipits Here -->
+	  <!-- Snipits Here -->
+	  <!-- Snipits Here -->
+	  <!-- InstanceBeginEditable name="Snipits" -->
+	  
+	  <section class="welcome">
+      <div class="jumbotron text-center mt-0 welcome">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+				<a href="#" >
+					<!-- Temp name="ShowImage" -->
+              		<img src="images/Canadian Brass images/CanadianBrassCoverImage.jpg" alt="Canadian Brass"/>
+					<!-- Temp End -->
+              	</a>
+            </div>
+          </div>
+			
+		  <div class="row">
+            <div class="col-12">
+				<div class="sc-down">
+					<svg id="svgdown" width="220" data-name="svgdown" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 175.7 62.85"><defs><style>.cls-1{fill:none;}.cls-2{fill:#213468;}.cls-3{clip-path:url(#clip-path);}.cls-4{fill:#a71f36;}.cls-5{fill:#fff;}</style><clippath id="clip-path" transform="translate(-152.16 -724)"><rect class="cls-1" width="480.02" height="864"/></clippath></defs><path class="cls-2" d="M156.6,752.27a4.55,4.55,0,0,1,0,9.1,4.55,4.55,0,0,1,0-9.1Zm19.5,0a4.55,4.55,0,0,1,0,9.1,4.55,4.55,0,0,1,0-9.1Zm19.5,0a4.55,4.55,0,0,1,0,9.1,4.55,4.55,0,0,1,0-9.1Z" transform="translate(-152.16 -724)"/><g class="cls-3"><path class="cls-4" d="M240.19,724a31.43,31.43,0,1,0,31.25,31.45A31.47,31.47,0,0,0,240.19,724" transform="translate(-152.16 -724)"/></g><polygon id="gx-logo" class="cls-5" points="87.84 51.46 68.06 20.29 72.76 20.29 87.85 43.99 102.94 20.29 107.64 20.29 87.84 51.46"></polygon><path class="cls-2" d="M284.46,752.27a4.55,4.55,0,0,1,0,9.1,4.55,4.55,0,0,1,0-9.1Zm19.5,0a4.55,4.55,0,0,1,0,9.1,4.55,4.55,0,0,1,0-9.1Zm19.5,0a4.55,4.55,0,0,1,0,9.1,4.55,4.55,0,0,1,0-9.1Z" transform="translate(-152.16 -724)"/></svg>
+				</div>
+				<p>
+					<h3>Scroll Down to View Program</h3>
+				</p>
+				</div>			
+            </div>
+          </div>
+      </div>
+  </section>
+	  
+	 <section class="sponsors">
+<div class="columns">
+<div class="container">
+        <div class="row">
+        <div class="col-md-12 col-12">
+		<div class="headline">
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="text-center htext"><!-- Temp name="Title" -->Thank you!<!-- Temp--></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+			
+			<h5	>to our generous sponsors</h5>
+						
+		</div>
+		</div>
+        </div>
+    </div>
+<!--Grid Items -->
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/WPRLogo_black.NEW.png" width="90"  alt="WPR logo"/></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/Holiday-Inn-Express.png" width="90"  alt="Holiday Inn Express logo"/></div>
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/La-Crosse-Trib-300-dpi.png" width="90"  alt="La Crosse Tribune logo"/></div>
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/Leighton-Broadcastin_black.png" width="90"  alt="Leighton logo"/></div>
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/News 8 Now_Black.png" width="90"  alt="News 8 logo"/></div>
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/mwf-lacrosse-logos-2019-all-bw.png" width="90"  alt="Midwest Family logo"/></div>
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/CandlewoodSuites_b.png" width="90"  alt="Candlewood Suites logo"/></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/WXOW-19.png" width="60"  alt="WXOW logo"/></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/GUNDERSEN_HS2014.png" width="90"  alt="Gundersen Hotel logo"/></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/Gund-logo-square_black.png" width="90"  alt="Gundersen logo"/></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/Fox-News-BW.png" width="90"  alt="Fox 25 logo"/></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/LukasekFamilyEndowment.png" width="90"  alt="Lukasek logo"/></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/Mayo_Clinic_Logo_1C_blk.png" width="90"  alt="Mayo Health System logo"/></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/LaCrosseGraphics_Logo.png" width="90"  alt="La Crosse Graphics logo"/></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/AFA_RetirePlanInvest_Logo_Black.png" width="90" height="34" alt=""/></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/wiartsboardbw.png" width="90"  alt="WAB logo"/></div>
+		
+		
+		
+		
+		
+<!--Grid Items -->
+
+
+
+
+<div class="columns">
+<div class="container">
+        <div class="row">
+        <div class="col-md-12 col-12">
+		<div class="headline">
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="text-center htext"><!-- Temp name="Title" -->Follow Us<!-- Temp--></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						
+		</div>
+		</div>
+        </div>
+    </div>
+<!--Grid Items -->
+	
+	
+	<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><a href="https://www.facebook.com/ViterboFAC/"><img src="images/Logos/Facebook.png" width="50"  alt="Facebook"/></a></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><a href="https://www.instagram.com/viterbofac/"><img src="images/Logos/Instagram.png" width="50"  alt="Instagram"/></a></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><a href="https://twitter.com/ViterboFAC"><img src="images/Logos/Twitter.png" width="50"  alt="Twitter"/></a></div>
+	
+	
+<!--Grid Items -->
+   </div>
+         <!--Section Items -->
+
+    </div>	
+</section> 
+	
+	
+			<section class="info">
+	  <div class="col-md-12 col-12 text-area centered">
+		<div class="headline">
+							<span class="dot" id="show info"></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							<span class="text-center htext"><!-- Temp name="Title" --><a href="#bios">Show Information</a><!-- Temp End --></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							
+	    </div>
+		  <!-- Temp name="Text" -->
+		  <p><img src="images/Canadian Brass images/CanadianBrassCoverImage.jpg" alt="Canadian Brass"/></p>
+		  <p>The official website for Canadian Brass is <a href="https://www.canadianbrass.com/">canadianbrass.com</a>. Keep up with Canadian Brass via twitter.com, facebook/canadianbrass, Canadian Brass YouTube channel, and Instagram.</p>
+		  <p>Canadian Brass performs on 24-karat-gold-plated Canadian Brass Collection instruments and is an exclusive Opening Day recording artist.</p>
+		  <p>Canadian Brass recordings are available at <a href="https://canadianbrassstore.com/">canadianbrassstore.com</a></p>
+		  <p>Canadian Brass appears by arrangement with IMG Artists, LLC, 7 West 54th Street, New York, NY 10019. (Phone 1-212-994-3500)</p>
+		  <p><strong>Photos and videos are encouraged but please no flashes or video lights. Tag Canadian Brass in your social media posts.</strong></p>
+		 
+	  </div>
+	
+	
+				
+		
+		
+		<div class="columns">
+<div class="container">
+        <div class="row">
+        <div class="col-md-12 col-12">
+		<div class="headline">
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="text-center htext"><!-- Temp name="Title" -->Show Sponsors<!-- Temp--></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						
+		</div>
+		</div>
+        </div>
+    </div>
+<!--Grid Items -->
+			
+			<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/Fox-News-BW.png"  alt="Fox 25 48" width="135"/> </div>
+			
+			<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/WPRLogo_black.NEW.png"  alt="Wisconsin Public Radio" width="85" height="65"/> </div>
+			
+			<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --></div>
+			
+			
+			
+			
+<!--Grid Items -->
+   
+
+
+
+</div>
+		
+	</section>
+	
+		
+	<section class="section">
+<div class="container">
+	<a href="#notes"></a>
+       <div class="row">         
+         <!--Section Items -->
+  <div class="col-md-12 col-12 note">
+	<div class="headline">
+					<span class="dot" id="president"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="text-center htext" id="president"><!--  Temp name="Title" -->From the President <!-- Temp End --></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					
+			</div>
+			<!-- Temp name="Directors Image" --><img CLASS="portrait" src="images/RickTrietley.jpg" width="180" height="229" alt=""/>
+			  <p> <!-- Temp name="Note" -->Dear Arts Supporters,</p>
+			  <p>On behalf of everyone at ­Viterbo University, I would like to welcome you to the Fine Arts Center as we celebrate the return of in-person performances. The pandemic necessitated a year and a half-long pause in our live event schedule, and both our artists and audience members have been sorely missed. It is truly great to have you with us.</p>
+			  <p>It’s only fitting that the Fine Arts Center should be fully used to its intended purpose during its 50th anniversary year. Opened in 1971, it remains not only the premier arts facility in the region, but also a wonderful testament to the vision and courage of the Franciscan Sisters of Perpetual Adoration who made it possible. Their collective love and appreciation for the arts led to countless cultural opportunities in the greater La Crosse community and has enhanced all our lives.</p>
+			  <p>New Fine Arts Center director Dillion McArdle and his staff have an outstanding season planned for you this year. I invite you to pick up an On Stage book or visit the Viterbo website for the complete schedule. There is a wide variety of offerings from which to choose, and tickets make wonderful gifts. Included in the schedule are the Conservatory for the Performing Arts student productions. I am continually amazed at the incredible talent of our students, and seeing them put it to use always fills me with pride, no matter their role, pursuit, or field of study.</p>
+			  <p>While live performances and other events have returned, we must remain vigilant in the fight against the spread of COVID-19. I ask that you adhere to the university’s safety policies, including remaining masked while anywhere inside the building.</p>
+			  <p>The arts will always be an integral part of the Viterbo University experience, which is made even more special through the support of our patrons, benefactors, sponsors, and volunteers. It would not be the same without you. Thank you.</p>
+			  <p><img src="images/TrietleySignature.png" width="200" height="66" alt=""/><br>
+		      Rick Trietley, 
+		      Interim President</p>
+			  <p><!-- Temp End --></p>
+      </div>
+	
+		   </section>
+	
+			<section class="tsection">
+				
+				 <div class="container">
+		<div class="headline">
+			<span class="dot" id="bios"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="text-center htext"><!-- Temp  name="Section Title" -->Biographies<!-- Temp End --></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>					
+		</div>
+		       <div class="row">
+		       <!--Section Items -->
+  
+				   <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+            <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Canadian Brass<!-- Temp End--></h3>
+              <hr>
+            </div>
+        
+			  <!-- Temp name="Bio Image" --><img src="images/Canadian Brass images/Canadian-Brass.jpg" width="400" height="300" ><!-- Temp End-->
+        
+            <p><!-- Temp name="BioText" -->With an international reputation as one of the most popular brass ensembles today, Canadian Brass has truly earned the distinction of “the world’s most famous brass group."</p>
+			<p>Friends Chuck Daellenbach and Gene Watts first came together in 1970 to form a brass quintet—a chamber music setting not entirely new, but never before having garnered the success and storied career Canadian Brass would achieve over the next 40 years. Initially, Watts took on the role of developing new repertoire while Daellenbach was the moving force in marketing, publishing, and managing the business. Three empty chairs were quickly filled and together, the group’s imagination and consummate musicianship elevated the art of the brass quintet to what it is today. Here was not only an opportunity to explore the possibilities of an all-brass chamber group but a challenge to bring the sound and the excitement of brass music to new audiences.</p>
+			<p>Masters of concert presentations, Canadian Brass has developed a uniquely engaging stage presence and rapport with audiences. Each of their concerts will show the full range from trademark Baroque and Dixieland tunes to new compositions and arrangements created especially for them–from formal classical presentation to music served up with lively dialogue and theatrical effects. The hallmark of any Canadian Brass performance is entertainment, spontaneity, virtuosity, and, most of all, fun–but never at the expense of the music. Whatever the style, the music is central and performed with utmost dedication, skill, and excellence.</p>
+			<p>With a discography of over 130 albums and an extensive world-wide touring schedule, Canadian Brass is an important pioneer in bringing brass music to mass audiences everywhere. They have sold well over two million albums worldwide, with 1.2 million sold in the Nielsen Soundscan era alone (since 1991). They continue to score <em>Billboard</em> chart positions—like with their rousing recording of patriotic songs and marches, <em>Stars & Stripes: Canadian Brass Salute America</em>, which spent eight weeks in the Top 25 on the <em>Billboard</em> Classical Chart, peaking at number two! Touring legends with an enthusiastic fan base, the Canadian Brass play to packed houses everywhere throughout the U.S., Canada, Japan, and Europe. They have also toured Australia, the Middle East, the Soviet Union and South America. They were the first brass ensemble from the West to perform in the People’s Republic of China (where they returned for a five-city tour to great acclaim in the spring of 2010 and several visits after this, including an appearance on Hunan TV for Chinese New Year) as well as the first brass group to take the main stage at the venerable Carnegie Hall. On numerous occasions Canadian Brass has been invited by the Canadian Government to play for visiting heads of states, becoming one of Canada’s greatest resources and musical ambassadors.</p>
+			<p>Education plays a key role in the story of Canadian Brass and each member is uniquely attuned to training the next generation of players. On their travels around the world, they often pause for masterclasses and are more than happy to work with students and young audiences. Canadian Brass was Ensemble in Residence at the University of Toronto after having been Chamber Quintet-in-Residence for many years at the Music Academy of the West in Santa Barbara, Calif., and has created an innovative brass summer course at the Eastman School of Music. Their support of education is also clearly viewed in their outreach and interaction with El Sistema, the acclaimed global music education program in Venezuela.</p>
+			<p>In conjunction with the Hal Leonard Corporation, Canadian Brass has made available their extensive library of brass music for performers of all levels as well as learning tools. Since 1998 Canadian Brass has been a recording artist at Opening Day Entertainment Group (ODEG) (distributed by IDLA) releasing over 25 CDs on the imprint to date. Opening Day is owned and run by Daellenbach together with his wife, MB. Canadian Brass sheet music and recordings are available in their online store.</p>
+			<p>With four decades under their belts, Canadian Brass continues to thrill audiences around the world–and they don’t look like they are letting up anytime soon!</p>
+			<p>Canadian Brass is: founding member Chuck Daellenbach (tuba), Brandon Ridenour and Caleb Hudson (trumpets), Achilles Liarmakopoulos (trombone), and Jeff Nelsen (horn). Canadian Brass is represented by IMG Artists in New York.
+
+<!-- Temp End--></p>
+          </div> 
+               
+		       <div class="row">
+		       <!--Section Items -->
+  
+				   <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+            <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Tuba<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><img src="images/Canadian Brass images/Chuck-Daellenbach.jpg" width="180" height="200" CLASS="portrait"><!-- Temp End-->
+        
+            <p><!-- Temp name="BioText" --><h5>Chuck Daellenbach</h5>
+              has brought music, imagination, and humour to Canadian Brass since the group was formed in 1970. Playing a key role in all of the group’s groundbreaking projects, world travels, and on over 130 recordings, Daellenbach and his gold-plated and carbon bell tuba are the bedrock of the massive Canadian Brass repertoire–from Baroque to jazz. Daellenbach comes from a long line of German and Swiss musicians and, during his upbringing in Wisconsin, his father gave him daily music lessons. </p>
+			<p>As a teenager, Daellenbach began studies with legendary Chicago Symphony tuba player, Arnold Jacobs, and throughout his career whenever possible would stop in to see his mentor, Mr. Jacobs. After earning a PhD at the age of 25 from the Eastman School of Music, Daellenbach headed north to teach as music faculty at the University of Toronto. His academic plans were soon derailed when he met trombonist Gene Watts. Together they formed this unique brass quintet with Daellenbach on tuba.</p>
+			<p>For the next 38 years Watts and Daellenbach guided Canadian Brass to the top of their field, through thousands of performances and fantastic opportunities including two “command” performances for the Queen of England. Daellenbach’s dialogue during concerts has kept audiences engaged helping to establish an appreciation for great music of all types to musicians and non-musicians alike. Possibly the most recognized tuba player in the world, Daellenbach has performed with many of the greatest musicians and conductors.</p>
+			<p>The definition of a multi-tasker, Daellenbach always has several projects in the works at once. These include a series of hundreds of brass works published by Hal Leonard (many accompanied by CDs) played by music students and professional players around the world. He runs Canadian Brass Publishing and together with his wife, MB, they manage Opening Day Entertainment Group [Odeg],the ensemble's recording label. They reside in Toronto, with their sons, Chris and Willis.
+<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Trumpet<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><img CLASS="portrait" src="images/Canadian Brass images/Brandon-Ridenour.jpg"><!-- Temp End-->
+        
+            <p><!-- Temp name="BioText" --><h5>Brandon Ridenour</h5>is a stylistically diverse trumpet soloist, collaborative artist, composer, and arranger. Recognized as “…heralding the trumpet of the future,” <em> (Chicago Sun Times)</em> and for “demonstrating the trumpet's huge potential for lyricism,” <em>(Cleveland Plain Dealer)</em>, he has combined his wide-ranging activities as soloist and chamber musician with his passion for composing and arranging, resulting in his distinctive artistic voice and vision.
+            </p>
+
+<p>At the age of 20, Ridenour became the youngest member ever to join the iconic Canadian Brass, a position he held for seven years. With the group, he played in distinguished venues around the world, performed on television, recorded ten albums, appeared on NPR’s <em>Tiny Desk</em>, and received three Juno Award nominations. He also created a catalog of new arrangements for the ensemble, which are still performed today. Ridenour rejoined Canadian Brass in 2019 and continues to create new repertoire for the group.</p>
+
+<p>Ridenour is a winner of numerous competitions, including Concert Artists Guild, International Trumpet Guild, and the American Composers Forum. He has played with a diverse array of musicians, including Sting, James Taylor, Marvin Hamlisch, Yo-Yo Ma, Wynton Marsalis, Esperanza Spalding, John Williams, and esteemed ensembles, such as the New York Philharmonic, National Symphony Orchestra, Los Angeles Philharmonic, International Contemporary Ensemble, the Knights, Orpheus, Orchestra of St. Luke’s, and the Mahler Chamber Orchestra.</p>
+
+<p>In 2019, Ridenour launched <em>Come Together</em>, an album of reimagined Beatles music celebrating the 50th anniversary of the classic Lennon/McCartney song. Brandon has since developed this collaborative album into a larger social impact and environmentalism project, with the mission of conveying, through music, the importance of humanity coming together to take better care of our planet and each other.</p>
+
+<p>Ridenour began arranging both solo and collaborative music for the trumpet in order to expand the possibilities for his instrument, sometimes including a melding of musical styles and creating a new cross-genre repertoire. In addition to showcasing these works in his own recital and concerto performances, his arrangements are also featured by the ensembles Founders (a quintet featuring trumpet/piano, violin/voice, clarinet, cello, and bass) and USEFULchamber, both of which he is a founding member. He has recorded three previous solo albums, most recently <em>Fantasies and Fairy Tales</em> which features his own virtuosic arrangements of classical masterworks for trumpet and piano.</p>
+
+<p>Ridenour began his musical journey at age five, studying piano with his father, pianist Rich Ridenour. He received his BM from the Juilliard School of Music in the studios of Mark Gould and Ray Mase.</p>
+
+<p>Outside of music, Ridenour has studied sketch writing and improv at the Upright Citizens Brigade Theatre company and has always been a not-so-closeted fan of comedy. He currently lives in Brooklyn.</p>
+
+
+<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Trumpet<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><img CLASS="portrait" src="images/Canadian Brass images/Caleb-Hudson.jpg"><!-- Temp End-->
+        
+            <p><!-- Temp name="BioText" --><h5>Caleb Hudson</h5>is the newest member of Canadian Brass, having graduated from the Juilliard School with both bachelor and master of music degrees. Acclaimed by the <em>New York Times</em> as "brilliantly stylish," Hudson has performed as an international soloist, including a recital that was broadcast nationally on NPR’s <em>Performance Today.</em>
+            </p>
+			<p>Hudson is known for his piccolo trumpet mastery of Bach’s infamous <em>Brandenburg Concerto No. 2</em>, having performed it around the world with ensembles including Orpheus Chamber Orchestra, Orchestra of St. Luke’s, Israel Philharmonic Soloists, and Chamber Music Society of Lincoln Center.</p>
+			<p>Possessing a wide range of musical styles, his experience ranges from soloing in Carnegie Hall to performing with early music ensembles, even appearing on <em>Jimmy Kimmel Live</em>. He is an alumnus of Interlochen Arts Academy and Ensemble Connect, a fellowship program of Carnegie Hall that promotes community outreach, and music education.</p>
+			<p>Hudson enjoys writing and arranging music for Canadian Brass, having many works performed, published, and recorded. They can be heard on two albums, <em>Canadian Brass: Perfect Landing</em> and <em>Canadian Brass: Great Wall of China</em>. In 2015, his original composition <em>White Rose Elegy</em> was performed as a world premiere in Lincoln Center by the Canadian Brass and New York Philharmonic Principal Brass.</p>
+			<p>Hudson is assistant professor of trumpet at the prestigious University of North Texas College of Music, where he is devoted to teaching and sharing his love for music with students.</p>
+
+<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Trombone<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><img CLASS="portrait" src="images/Canadian Brass images/Achilles-Liarmakopoulos.jpg"><!-- Temp End-->
+        
+            <p><!-- Temp name="BioText" --><h5>Achilles Liarmakopoulos</h5> joined Canadian Brass in 2011. He has toured extensively throughout North America, Europe, and Asia, performing and educating in the world’s most important venues and institutions. </p>
+
+<p>Liarmakopoulos holds degrees from the Yale University School of Music, Curtis Institute of Music, San Francisco Conservatory, and the Philippos Nakas Conservatory in his hometown Athens, Greece. Upon completion of his studies, he won the position of principal trombone of the Greek Radio Symphony Orchestra. Liarmakopoulos has also performed with the Malaysian Philharmonic, Jacksonville Symphony, and the European Union Youth Orchestra, among many others. </p>
+
+<p>As a recitalist, Liarmakopoulos has performed in China, Panama, Spain, France, the Netherlands, Austria, Finland, Greece, U.S., and Canada, having been awarded honors at competitions around the globe. At the age of 18, he gave two solo performances at Walt Disney Hall as the Grand Prize Winner of the Pasadena Showcase House Instrumental Competition judged by members of the Los Angeles Philharmonic. He has gone on to win prizes at the Christian Lindberg International Competition, the Yamaha Music Foundation of Europe (YMFE), and the International Trombone Festival’s Robert Marsteller/Conn-Selmer and Larry Wiehe solo competitions, to name a few. Liarmakopoulos was also awarded the Alexandros S. Onassis Foundation and the Greek State Scholarship Foundation educational scholarships.</p>
+
+<p>His discography includes five solo albums, <em>Obvious</em> with French harp soloist Coline-Marie Orliac, <em>Ethereal</em> with 20th and 21st century lyrical works from around the world, <em>Trombone Atrevido</em> dedicated to Choro music from Brazil, <em>Discoveries</em> with contemporary compositions on the ODEG label, <em>Tango Distinto</em> with Astor Piazzolla’s music on the NAXOS label, five recordings with Canadian Brass and numerous appearances on classical, pop, Latin, and other albums.</p>
+
+<p>Liarmakopoulos also performs around the world with Pink Martini and he has also performed with salsa icon Ruben Blades.</p>
+ 
+		  <p>He is also an adjunct trombone professor at Brooklyn College at CUNY University in New York. </p>
+
+
+<!-- Temp End--></p>
+          </div> 
+		 </div> 
+						
+		
+		
+	 	<div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Horn<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><img CLASS="portrait" src="images/Canadian Brass images/Jeff-Nelsen.jpg"><!-- Temp End-->
+        
+            <p><!-- Temp name="BioText" --><h5>Jeff Nelsen</h5> is one of the many Canadian pig-farm-raised magician horn players in the world. He has thrilled audiences and mentored students for over 25 years. Having recently entered his ninth year touring and recording as solo horn with Canadian Brass, Nelsen has also performed concerti with orchestras on six continents, and in the horn sections of dozens of orchestras including the New York and Los Angeles Philharmonics, and the Boston, Chicago, St. Louis, Cincinnati, and Montreal Symphonies.  One thrilling event last summer was performing in Carnegie Hall as guest principal horn with the Philadelphia Orchestra and fellow Canadian, maestro Yannick Nézet-Séguin.</p>
+			<p>Nelsen is professor of music (horn) at the prestigious Indiana University Jacobs School of Music where he teaches full-time as a horn, chamber music, and performance coach. He is founder of Fearless Performance LLC, a company that focuses on training musicians and entrepreneurs to improve their mental game so they consistently perform their best. In 2011, he gave his celebrated TED Talk on Fearless Performance. A huge Broadway musical fan, Nelsen played the complete run of two Broadway shows that were nominated for Tony awards–<em>Chitty Chitty Bang Bang </em>(Sherman Brothers) and <em>The Pirate Queen</em> (Boublil and Schönberg). Nelsen has toured with Michael Bolton and Barry Manilow, has recorded with Michael Buble and the pop band Barenaked Ladies, and has performed on dozens of movie and video game soundtracks. Nelsen most enjoys performing with his wife, mezzo-soprano Nina Yoshida Nelsen, on recital and orchestral pops series. Nelsen was president of the International Horn Society from 2014-16. Nelsen performs on his Dieter Otto 180 K-JN (Nelsen Model) horn he co-designed with German horn-maker Martin Ecker, and his mouthpiece he co-designed with Scott Laskey. He publishes a collection of sheet music through his company, Perform Music, and has upcoming releases of online video courses on Beginner Horn Fundamentals with The Musician’s Toolkit, and on How to teach Fearless Performance with The Royal Conservatory in Toronto.</p>
+			<p>Aside from creating musical magic, Nelsen is an enthusiastic magician, and often adds touches of illusionary arts to performances. He is a magician member of the Academy of Magical Arts at the world famous Magic Castle in Los Angeles. His most magical time is spent with his enchanting wife and their two spellbinding sons Rhys and Blair.</p>
+
+<!-- Temp End--></p>
+          </div> 
+				
+				
+
+	
+	     						   			   
+				   
+		  		<!--Section Items -->
+        </div>
+    </div>
+ </section>
+	
+	
+  <section class="tsection">
+                <div class="container">
+		<div class="headline">
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+				
+		</div>
+		       <div class="row">
+		       <!--Section Items -->
+  
+		  		<!--Section Items -->
+        </div>
+    </div>
+ </section>		  
+
+
+	<section class="ads large">
+      <div class="container-fluid px-0" >
+        <div class="row">
+          <div class="col-md-12 col-12">
+        <div class="d-flex justify-content-center align-items-center">
+           <!-- Temp name="LargeAd" -->
+            <a href="https://www.wiproud.com/"><img class="img-fluid float-right" src="images/Ads/Fox2548Ad.jpg" alt="Fox 25 48"></a>
+			
+          <!-- Temp End -->
+        </div>
+      </div>
+        </div>
+      </div>
+    </section>
+	  
+	  
+	  <section class="ads small">
+      <div class="container-fluid px-0" >
+        <div class="row">
+          <div class="col-md-12 col-12">
+			  <div class="d-flex justify-content-center align-items-center">
+			    <!-- Temp name="AdSmall" -->
+                            <a href="https://www.lacrossegraphics.com/"> <img class="img-fluid float-right" src="images/Ads/LaCrosseGraphics_Viterboad_2022.jpg" alt=""></a>  
+			    <!-- Temp End -->
+			  </div>
+		  </div>
+        </div>
+      </div>
+    </section>
+	  
+	  
+	  
+	  <section class="tsection">
+                <div class="container">
+		<div class="headline">
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+				
+		</div>
+		       <div class="row">
+		       <!--Section Items -->
+  
+		  		<!--Section Items -->
+        </div>
+    </div>
+ </section>		   
+		   
+
+
+	  
+	  
+	  
+	  
+	  
+	  
+	  <!-- InstanceEndEditable -->
+	  <!-- Snipits End Here -->
+	  <!-- Snipits End Here -->
+	  <!-- Snipits End Here -->
+
+    <div class="section foot" id="touch"> 
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-12">
+            <h3 class="text-center">
+				<a href="https://www.viterbo.edu/fine-arts-center/box-office-information" class="btn btn-info" role="button">Information For Our Patrons</a>
+				</h3>
+          </div>
+          <div class="col-md-12 col-12">
+            <address class="text-center">
+              <strong>Viterbo Fine Arts Center</strong><br>
+              900 Viterbo Drive<br>
+              La Crosse, WI 54650<br>
+              608-796-3737 | 
+			  <a href="mailto:finearts@viterbo.edu">finearts@viterbo.edu</a>
+			  <br><a href="http://www.viterbo.edu/fac">www.viterbo.edu/fac</a>
+            </address>
+			
+          </div>
+		  <div class="col-md-12 col-12">
+           <p class="text-center">Copyright 2022 © Viterbo University.<br/>All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+			 
+          </div>
+        </div>
+      </div>
+    </footer>
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		  <div class="modal-body">
+			...
+		  </div>
+		  <div class="modal-footer">
+		  </div>
+		</div>
+	  </div>
+	</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+  <script src="js/main.js"></script>
+  </body>
+<!-- InstanceEnd --></html>
