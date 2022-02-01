@@ -60,6 +60,19 @@ img{
 }
 
 
+.columns2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+	text-align: center;
+}
+.columns2 > .column  {
+    flex: 1 1 40%; /*grow | shrink | basis */
+    height: 80px;
+	
+}
+
 
 /* ditch the ugle blue outline */
 
