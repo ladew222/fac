@@ -251,6 +251,8 @@ section.info {
     color: #000; }
   section.info .headline .dot {
     background-color: #1F2F5F; }
+  section.info a {
+    color: #1F2F5F; }
 
 div.note img.portrait {
   float: right;
