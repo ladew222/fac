@@ -259,6 +259,7 @@ a{
 //headline style
 .headline{
 	//header dots
+	padding-top:12px;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	text-align: center;
@@ -275,7 +276,7 @@ a{
 	}
 
 	.htext {
-		font-size: 2rem;
+		font-size: 1.6rem;
 	}
 }
 
@@ -360,7 +361,7 @@ section{
 	}
 	&.info{
 		background:$white;
-		margin-top: -50px;
+		margin-top: -25px;
 		color:$black;
 		p,em,.htext {
 			color:$black;

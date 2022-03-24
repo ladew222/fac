@@ -179,6 +179,7 @@ a {
     border-color: #fff; }
 
 .headline {
+  padding-top: 12px;
   margin-top: 1rem;
   margin-bottom: 1rem;
   text-align: center;
@@ -193,7 +194,7 @@ a {
     display: inline-block;
     margin: 3px; }
   .headline .htext {
-    font-size: 2rem; }
+    font-size: 1.6rem; }
 
 .hr5 {
   border: 0;
@@ -246,7 +247,7 @@ section.sponsors {
     background-color: #000; }
 section.info {
   background: #fff;
-  margin-top: -50px;
+  margin-top: -25px;
   color: #000; }
   section.info p, section.info em, section.info .htext {
     color: #000; }
