@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/MasterProgram.dwt" codeOutsideHTMLIsLocked="false" -->
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=.8">
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>FAC Program</title>
+    <!-- InstanceEndEditable -->
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+	  <link href="../css/main.css" rel="stylesheet">
+  <!-- InstanceBeginEditable name="head" -->
+  <!-- InstanceEndEditable -->
+  </head>
+  <body>
+  <div class="ph_silent alert alert-dark alert-dismissible pagewide fixed-top">	
+	  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+	  <strong><svg id="Layer_1" width="24" height="24" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58.5 47.73"><defs><style>.cls-1{fill:#fff;}</style></defs><polygon class="cls-1" points="18.48 37.16 34.07 47.73 34.07 0 18.48 10.57 18.48 37.16"/><path class="cls-1" d="M-2.89,11.55H-14.31a4.35,4.35,0,0,0-4.17,4.51V31.67a4.35,4.35,0,0,0,4.17,4.51H-2.89Z" transform="translate(18.48)"/><path class="cls-1" d="M39.71,14.44a1,1,0,0,0-1.54,0L31,22.2l-7.15-7.76a1,1,0,0,0-1.54,0,1.25,1.25,0,0,0,0,1.66l7.16,7.77-7.16,7.76a1.25,1.25,0,0,0,0,1.66,1,1,0,0,0,1.54,0L31,25.53l7.15,7.76a1,1,0,0,0,1.54,0,1.25,1.25,0,0,0,0-1.66l-7.16-7.76,7.16-7.77a1.25,1.25,0,0,0,0-1.66" transform="translate(18.48)"/></svg>Thank you for silencing your phone</strong>
+	</div>
+     <nav class="navbar fixed-top cnav navbar-expand-lg navbar-dark padded">
+      <a class="navbar-brand" href="#"> 
+		 
+
+		  <svg width="210" id="logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 359.02 77.82"><defs><style>.clss-1{fill:#fff;}.clss-2{fill:#a71f36;}</style></defs><circle class="clss-1" cx="38.91" cy="38.91" r="38.91"/><path class="clss-2" d="M40,8.2A36.89,36.89,0,1,0,76.63,45.12,36.93,36.93,0,0,0,40,8.2Zm8.73,27.51H54v3.15l-5.35,7.63Zm-11.24-16c.05-.58,2,3.87.09,4.89-2.22,1.23-.5,3.8,1,5.55A6.06,6.06,0,0,1,38,28.31c0-.56.24-1.68.81-1.87,1.19-.4.47-2.94.77-2.64,2.9,2.87,2.36,5.12,1.39,6.49h.12c1.46-1.55,2.86-4.12,1.38-6.78a8.69,8.69,0,0,0-2.58-2.32c-.62-.52-.71-1.39.08-2.36a7.26,7.26,0,0,0,1.1-2.72c.24,2.07,3.57,4.63,4.27,5.59a6,6,0,0,1,.86,5.44,6,6,0,0,1-1.82,3.15h4.13L47.2,33.14H32.31L31,30.29h4.61C30.2,25.48,37.26,21.64,37.44,19.75ZM46,50.81l-6.22,8.6-6.23-8.6,0-15.11H45.92ZM25.46,35.71H30.8V46.49l-5.34-7.63Zm0,24.12V55.59c3.38,4.82,7,10,10,14.28C25,67.89,25.46,59.83,25.46,59.83Zm18.6,10c3-4.32,6.58-9.46,10-14.28v4.24S54.46,67.89,44.06,69.87Zm-4.32,2.42L14.29,35.71h6.05l19.4,27.81L59.15,35.71h6Z" transform="translate(-0.83 -6.17)"/><polygon class="clss-2" points="38.91 49.82 41.34 45.77 36.49 45.77 38.91 49.82"/><path class="clss-2" d="M36.27,42.1h1.91a1.8,1.8,0,0,0,.55.55v6.52h2V42.65a1.8,1.8,0,0,0,.55-.55h1.91v-2H41.31a1.8,1.8,0,0,0-.55-.55V38.07h-2v1.45a1.8,1.8,0,0,0-.55.55H36.27Zm2.63-1a.85.85,0,1,1,.84.85A.85.85,0,0,1,38.9,41.08Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M104,36.07,96.19,54.9H93.11L85.24,36.07h5.68L93.57,43l1.31,4.07L96.14,43l2.49-6.94Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M107.49,36.07h5.15V54.9h-5.15Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M133.68,40.57h-6.1V54.9h-5.12V40.57h-6v-4.5h17.24Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M151.12,50.48V54.9H137.46V36.07h13.6v4.45h-8.54V43.2H150v4.36h-7.5v2.92Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M162.47,50.08h-2.2V54.9h-5V36.07h7.9c4.84,0,7.71,3,7.71,7.13a6.42,6.42,0,0,1-3.56,5.86l4.07,5.84h-5.84Zm-2.2-4.26h2.5a2.72,2.72,0,0,0,3-2.68,2.77,2.77,0,0,0-3.07-2.81h-2.42Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M190.7,49.49c0,3.35-2.15,5.41-7.56,5.41h-8V36.07h7.74c5.06,0,7.12,2.12,7.12,5.09A4,4,0,0,1,187,45,4.31,4.31,0,0,1,190.7,49.49Zm-8-9.56H180V43.6h2.76c1.58,0,2.38-.67,2.38-1.85S184.32,39.93,182.74,39.93Zm3.06,9.18c0-1.25-.81-1.87-2.63-1.87H180V51h3.16C184.94,51,185.8,50.29,185.8,49.11Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M193.35,45.42c0-5.55,4.31-9.78,10.15-9.78s10,4.1,10,9.78a9.65,9.65,0,0,1-10,9.8A9.77,9.77,0,0,1,193.35,45.42Zm15,0a4.8,4.8,0,0,0-4.82-5.14,4.87,4.87,0,0,0-4.93,5.14,4.93,4.93,0,0,0,4.93,5.17A4.86,4.86,0,0,0,208.32,45.42Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M218.09,47.71V36.62a.26.26,0,0,1,.29-.29h1.28a.26.26,0,0,1,.28.29V47.68c0,3.53,1.78,5.52,4.74,5.52s4.76-2,4.76-5.52V36.62a.26.26,0,0,1,.28-.29H231c.18,0,.26.11.26.29v11c0,4.55-2.51,7.24-6.56,7.24S218.09,52.21,218.09,47.71Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M236.45,54.35V36.62a.26.26,0,0,1,.29-.29h1c.21,0,.31.13.42.29l8.68,13.15.86,1.52V36.62a.27.27,0,0,1,.29-.29h1.31c.18,0,.26.11.26.29V54.35c0,.18-.08.29-.26.29h-1a.43.43,0,0,1-.42-.29l-8.71-13.21-.89-1.51V54.35a.26.26,0,0,1-.28.29h-1.28A.26.26,0,0,1,236.45,54.35Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M255,54.35V36.62a.26.26,0,0,1,.28-.29h1.28a.26.26,0,0,1,.29.29V54.35a.26.26,0,0,1-.29.29H255.3A.26.26,0,0,1,255,54.35Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M275.65,36.62l-6.8,17.73a.37.37,0,0,1-.37.29h-1a.42.42,0,0,1-.4-.26l-6.79-17.76c-.06-.13-.06-.18,0-.24a.34.34,0,0,1,.23-.05H262c.16,0,.23.11.31.29l5.31,14.17.39,1.42.37-1.42,5.28-14.17c0-.18.13-.29.31-.29h1.47a.27.27,0,0,1,.21.08C275.7,36.44,275.7,36.49,275.65,36.62Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M280.85,38v6.14h7.33c.18,0,.28.08.28.29v1.1a.25.25,0,0,1-.28.28h-7.33V53h8.63c.16,0,.26.08.26.29v1.1a.26.26,0,0,1-.26.29H279.29a.26.26,0,0,1-.29-.29V36.62a.26.26,0,0,1,.29-.29h10.19a.26.26,0,0,1,.26.29v1.1c0,.21-.1.29-.26.29Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M306,54.64h-1.54a.3.3,0,0,1-.32-.24l-3.32-7.11c-.23-.5-.47-.63-.86-.63h-4.21v7.69a.27.27,0,0,1-.29.29h-1.28a.27.27,0,0,1-.29-.29V36.62a.27.27,0,0,1,.29-.29h6c3.43,0,5.7,2,5.7,5.13a4.87,4.87,0,0,1-3.66,4.94,1.32,1.32,0,0,1,.55.71l3.4,7.27C306.17,54.53,306.14,54.64,306,54.64ZM300,45c2.3,0,3.85-1.39,3.85-3.5S302.32,38,300,38h-4.31v7Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M308.81,49.72c0-.21.08-.26.26-.26h1.36c.16,0,.24.08.29.26a4.09,4.09,0,0,0,1.07,2.17,4.88,4.88,0,0,0,3.56,1.31c2.35,0,3.95-1.15,3.95-3.19,0-2.22-2-3.14-4.4-4a12.21,12.21,0,0,1-4-2,4.13,4.13,0,0,1-1.31-3.14c0-2.93,2.25-4.76,5.42-4.76s5.49,1.88,5.83,5.15c0,.19-.06.26-.24.26h-1.36c-.18,0-.26-.07-.29-.26a3.7,3.7,0,0,0-1.41-2.69,4,4,0,0,0-2.53-.76c-2.07,0-3.48,1.15-3.48,2.93,0,2.14,2,2.85,4.1,3.63,2.64,1,5.57,2.07,5.57,5.57,0,3.14-2.32,5-5.83,5S309.2,53,308.81,49.72Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M325.5,54.35V36.62a.26.26,0,0,1,.28-.29h1.29a.26.26,0,0,1,.28.29V54.35a.26.26,0,0,1-.28.29h-1.29A.26.26,0,0,1,325.5,54.35Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M343.83,36.62v1.1c0,.21-.08.29-.26.29h-5.36V54.35a.27.27,0,0,1-.29.29h-1.28a.25.25,0,0,1-.29-.29V38h-5.28a.25.25,0,0,1-.29-.29v-1.1a.27.27,0,0,1,.29-.29h12.5C343.75,36.33,343.83,36.44,343.83,36.62Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M359.81,36.62l-6.38,10.46v7.27c0,.18-.08.29-.26.29h-1.28a.26.26,0,0,1-.29-.29V47l-6.36-10.41c-.13-.21.08-.29.21-.29H347c.19,0,.27.11.37.29L352,44.05l.6,1.23.55-1.23,4.58-7.43c.1-.18.21-.29.36-.29h1.52C359.81,36.33,359.91,36.46,359.81,36.62Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M93.63,66.78v.89a.17.17,0,0,1-.19.19H89.32v2.89h3.43a.18.18,0,0,1,.2.2v.88c0,.14-.08.19-.2.19H89.32v4a.18.18,0,0,1-.2.2h-1a.18.18,0,0,1-.2-.2V66.78a.18.18,0,0,1,.2-.19h5.32A.17.17,0,0,1,93.63,66.78Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M95.73,76.07V66.78a.18.18,0,0,1,.2-.19h1a.17.17,0,0,1,.19.19v9.29a.18.18,0,0,1-.19.2h-1A.18.18,0,0,1,95.73,76.07Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M100.09,76.07V66.78a.17.17,0,0,1,.19-.19h.82a.37.37,0,0,1,.29.19l4,6.14.46.83v-7a.17.17,0,0,1,.19-.19h1c.13,0,.18.07.18.19v9.29c0,.13-.05.2-.18.2h-.79a.32.32,0,0,1-.29-.2l-4-6.19-.47-.83v7a.18.18,0,0,1-.19.2h-1A.18.18,0,0,1,100.09,76.07Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M111.63,67.86v2.68h3.61c.12,0,.18.06.18.2v.88c0,.14-.06.2-.18.2h-3.61V75h4.3a.17.17,0,0,1,.18.19v.88c0,.13-.07.2-.18.2h-5.5a.18.18,0,0,1-.2-.2V66.78a.18.18,0,0,1,.2-.19h5.5a.17.17,0,0,1,.18.19v.89a.17.17,0,0,1-.18.19Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M129,76.27h-1.22c-.12,0-.15-.07-.21-.2L127,74.48H122.7l-.58,1.59c0,.13-.07.2-.19.2h-1.18c-.11,0-.17-.07-.12-.2l3.61-9.29c.05-.12.1-.19.23-.19h.81c.12,0,.18.07.22.18l3.6,9.3C129.15,76.2,129.1,76.27,129,76.27Zm-2.44-3-1.36-3.79-.32-1.16-.32,1.16-1.38,3.79Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M137.63,76.27h-1.18a.21.21,0,0,1-.21-.14l-1.63-3.57c-.11-.26-.21-.31-.43-.31h-1.74v3.82a.18.18,0,0,1-.2.2h-1a.18.18,0,0,1-.19-.2V66.78a.17.17,0,0,1,.19-.19h3.24c1.86,0,3.11,1.07,3.11,2.81a2.65,2.65,0,0,1-1.84,2.65.94.94,0,0,1,.35.44l1.67,3.6C137.8,76.18,137.77,76.27,137.63,76.27ZM134.36,71a1.59,1.59,0,1,0,0-3.17h-1.94V71Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M145.94,66.78v.89c0,.12,0,.19-.16.19h-2.63v8.21a.18.18,0,0,1-.19.2h-1c-.13,0-.18-.07-.18-.2V67.86h-2.58a.17.17,0,0,1-.19-.19v-.89a.17.17,0,0,1,.19-.19h6.61C145.9,66.59,145.94,66.66,145.94,66.78Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M147.1,73.5c0-.14.06-.16.2-.16h1c.13,0,.18,0,.21.16a2.12,2.12,0,0,0,.55,1,2.32,2.32,0,0,0,1.65.61c1.05,0,1.75-.51,1.75-1.4s-1-1.39-2.19-1.85a5.51,5.51,0,0,1-2-1.07,2.26,2.26,0,0,1-.71-1.74,2.67,2.67,0,0,1,3-2.64,3,3,0,0,1,3.2,2.84.16.16,0,0,1-.18.18h-1c-.11,0-.17-.06-.2-.18a1.8,1.8,0,0,0-.63-1.22,1.93,1.93,0,0,0-1.18-.36c-.93,0-1.53.51-1.53,1.29,0,1,.94,1.32,2,1.7,1.31.48,3,1.06,3,3,0,1.69-1.27,2.73-3.18,2.73A3.34,3.34,0,0,1,147.1,73.5Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M159.3,71.43c0-3,1.77-5,4.34-5a4,4,0,0,1,4.06,3.4c0,.14,0,.2-.18.2h-1c-.12,0-.19,0-.23-.2a2.65,2.65,0,0,0-2.61-2.11c-1.73,0-2.92,1.46-2.92,3.69s1.19,3.69,2.92,3.69A2.65,2.65,0,0,0,166.28,73c0-.15.11-.19.23-.19h1c.13,0,.2.06.18.19a4,4,0,0,1-4.06,3.41C161.07,76.41,159.3,74.42,159.3,71.43Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M171.38,67.86v2.68H175c.12,0,.18.06.18.2v.88c0,.14-.06.2-.18.2h-3.61V75h4.3a.17.17,0,0,1,.18.19v.88c0,.13-.07.2-.18.2h-5.5a.18.18,0,0,1-.2-.2V66.78a.18.18,0,0,1,.2-.19h5.5a.17.17,0,0,1,.18.19v.89a.17.17,0,0,1-.18.19Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M178.25,76.07V66.78a.17.17,0,0,1,.19-.19h.82a.34.34,0,0,1,.29.19l4,6.14.46.83v-7a.17.17,0,0,1,.19-.19h1a.17.17,0,0,1,.18.19v9.29c0,.13-.06.2-.18.2h-.79a.31.31,0,0,1-.29-.2l-4-6.19-.47-.83v7a.18.18,0,0,1-.2.2h-1A.18.18,0,0,1,178.25,76.07Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M194.41,66.78v.89c0,.12,0,.19-.16.19h-2.63v8.21a.18.18,0,0,1-.19.2h-1c-.14,0-.18-.07-.18-.2V67.86h-2.58a.18.18,0,0,1-.2-.19v-.89a.18.18,0,0,1,.2-.19h6.61C194.37,66.59,194.41,66.66,194.41,66.78Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M197.81,67.86v2.68h3.61c.12,0,.18.06.18.2v.88c0,.14-.06.2-.18.2h-3.61V75h4.3a.17.17,0,0,1,.18.19v.88c0,.13-.07.2-.18.2h-5.5c-.13,0-.19-.07-.19-.2V66.78a.17.17,0,0,1,.19-.19h5.5a.17.17,0,0,1,.18.19v.89a.17.17,0,0,1-.18.19Z" transform="translate(-0.83 -6.17)"/><path class="clss-1" d="M211.28,76.27h-1.19c-.1,0-.15,0-.21-.14l-1.63-3.57c-.11-.26-.21-.31-.43-.31h-1.74v3.82a.18.18,0,0,1-.19.2h-1a.18.18,0,0,1-.2-.2V66.78a.18.18,0,0,1,.2-.19h3.23c1.87,0,3.11,1.07,3.11,2.81a2.64,2.64,0,0,1-1.84,2.65.88.88,0,0,1,.35.44l1.67,3.6C211.44,76.18,211.42,76.27,211.28,76.27ZM208,71a1.59,1.59,0,1,0,0-3.17h-1.93V71Z" transform="translate(-0.83 -6.17)"/></svg>
+		  
+		 
+		 
+		 
+		 </a>
+		<div class="social-media order-lg-last">
+		<p class="mb-0 d-flex clickableList">
+			<label class="switch">
+			 <input type="checkbox" class="checkbox" name="mode">
+			 <span class="toggle-thumb">
+				
+				 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="padding:3px;fill:#fff; padd	transform:;-ms-filter:" class="bi bi-lightbulb-fill" viewBox="0 0 16 16">
+				  <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5z"/>
+				</svg>
+				 
+				  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="padding:3px;fill:#fff;transform:;-ms-filter:" class="bi bi-lightbulb" viewBox="0 0 16 16">
+				  <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
+				</svg>
+				 
+
+				
+
+			 </span>
+		  </label>
+		</p>
+		</div>
+		 
+		 
+		 
+      <button class="navbar-toggler collapsed border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+	  <div class="close-icon py-1">✖</div>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+			 <!-- InstanceBeginEditable name="menu" -->
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#president">President's Note</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#director">Director's Note</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#scenes">Synopsis of Scenes</a>
+          </li>
+			<li class="nav-item">
+            <a class="nav-link" href="#company">Company</a>
+          </li>
+			<li class="nav-item">
+            <a class="nav-link" href="#bios">Biographies</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#touch">Get In Touch</a>
+          </li>
+			<!-- InstanceEndEditable -->
+        </ul>
+      </div>
+    </nav>
+	  
+	  <!-- Snipits Here -->
+	  <!-- Snipits Here -->
+	  <!-- Snipits Here -->
+	  <!-- InstanceBeginEditable name="Snipits" -->
+	  
+	  
+	  
+	    <section class="welcome">
+      <div class="jumbotron text-center mt-0 welcome">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+				<a href="#" >
+					<!-- Temp name="ShowImage" -->
+              			<img src="images/Carrie The Musical Images/CarrieCoverImage.jpg">
+					<!-- Temp End -->
+              	</a>
+            </div>
+          </div>
+			
+		  <div class="row">
+            <div class="col-12">
+				<div class="sc-down">
+					<svg id="svgdown" width="220" data-name="svgdown" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 175.7 62.85"><defs><style>.cls-1{fill:none;}.cls-2{fill:#213468;}.cls-3{clip-path:url(#clip-path);}.cls-4{fill:#a71f36;}.cls-5{fill:#fff;}</style><clippath id="clip-path" transform="translate(-152.16 -724)"><rect class="cls-1" width="480.02" height="864"/></clippath></defs><path class="cls-2" d="M156.6,752.27a4.55,4.55,0,0,1,0,9.1,4.55,4.55,0,0,1,0-9.1Zm19.5,0a4.55,4.55,0,0,1,0,9.1,4.55,4.55,0,0,1,0-9.1Zm19.5,0a4.55,4.55,0,0,1,0,9.1,4.55,4.55,0,0,1,0-9.1Z" transform="translate(-152.16 -724)"/><g class="cls-3"><path class="cls-4" d="M240.19,724a31.43,31.43,0,1,0,31.25,31.45A31.47,31.47,0,0,0,240.19,724" transform="translate(-152.16 -724)"/></g><polygon id="gx-logo" class="cls-5" points="87.84 51.46 68.06 20.29 72.76 20.29 87.85 43.99 102.94 20.29 107.64 20.29 87.84 51.46"></polygon><path class="cls-2" d="M284.46,752.27a4.55,4.55,0,0,1,0,9.1,4.55,4.55,0,0,1,0-9.1Zm19.5,0a4.55,4.55,0,0,1,0,9.1,4.55,4.55,0,0,1,0-9.1Zm19.5,0a4.55,4.55,0,0,1,0,9.1,4.55,4.55,0,0,1,0-9.1Z" transform="translate(-152.16 -724)"/></svg>
+				</div>
+				<p>
+					<h3>Scroll Down to View Program</h3>
+				</p>
+				</div>			
+            </div>
+          </div>
+      </div>
+  </section>
+	  
+	<section class="sponsors">
+<div class="columns">
+<div class="container">
+        <div class="row">
+        <div class="col-md-12 col-12">
+		<div class="headline">
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="text-center htext"><!-- Temp name="Title" -->Thank you!<!-- Temp--></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+			
+			<h5	>to our generous sponsors</h5>
+						
+		</div>
+		</div>
+        </div>
+    </div>
+<!--Grid Items -->
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/WPRLogo_black.NEW.png" width="90"  alt="WPR logo"/></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/Holiday-Inn-Express.png" width="90"  alt="Holiday Inn Express logo"/></div>
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/La-Crosse-Trib-300-dpi.png" width="90"  alt="La Crosse Tribune logo"/></div>
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/Leighton-Broadcastin_black.png" width="90"  alt="Leighton logo"/></div>
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/News 8 Now_Black.png" width="90"  alt="News 8 logo"/></div>
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/mwf-lacrosse-logos-2019-all-bw.png" width="90"  alt="Midwest Family logo"/></div>
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/CandlewoodSuites_b.png" width="90"  alt="Candlewood Suites logo"/></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/WXOW-19.png" width="60"  alt="WXOW logo"/></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/GUNDERSEN_HS2014.png" width="90"  alt="Gundersen Hotel logo"/></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/Gund-logo-square_black.png" width="90"  alt="Gundersen logo"/></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/Fox-News-BW.png" width="90"  alt="Fox 25 logo"/></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/LukasekFamilyEndowment.png" width="90"  alt="Lukasek logo"/></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/Mayo_Clinic_Logo_1C_blk.png" width="90"  alt="Mayo Health System logo"/></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/LaCrosseGraphics_Logo.png" width="90"  alt="La Crosse Graphics logo"/></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/AFA_RetirePlanInvest_Logo_Black.png" width="90" height="34" alt=""/></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/wiartsboardbw.png" width="90"  alt="WAB logo"/></div>
+		
+		
+		
+		
+		
+<!--Grid Items -->
+
+
+
+
+<div class="columns">
+<div class="container">
+        <div class="row">
+        <div class="col-md-12 col-12">
+		<div class="headline">
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="text-center htext"><!-- Temp name="Title" -->Follow Us<!-- Temp--></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						
+		</div>
+		</div>
+        </div>
+    </div>
+<!--Grid Items -->
+	
+	
+	<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><a href="https://www.facebook.com/ViterboFAC/"><img src="images/Logos/Facebook.png" width="50"  alt="Facebook"/></a></div>		
+		<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><a href="https://www.instagram.com/viterbofac/"><img src="images/Logos/Instagram.png" width="50"  alt="Instagram"/></a></div>		
+
+	
+	
+<!--Grid Items -->
+   </div>
+         <!--Section Items -->
+
+    </div>	
+</section> 
+	
+				<section class="info">
+	  <div class="col-md-12 col-12 text-area centered">
+		<div class="headline">
+							<span class="dot"></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							<span class="text-center htext"><!-- Temp name="Title" -->Show Information<!-- Temp End --></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							
+	    </div>
+		  <!-- Temp name="Text" -->
+		  <p><img src="images/Carrie The Musical Images/CarrieCoverImage.jpg" alt=""/></p>
+		  <p>Music by Michael Gore<br>
+		  Lyrics by Dean Pitchford<br> 
+		  Book by Lawrence D. Cohen <br>
+	    Based on the novel by Stephen King</p>
+		  
+		<p><em>CARRIE: The Musical</em> is presented by arrangement with Concord Theatricals. 
+        <a href="https://www.concordtheatricals.com/"> www.concordtheatricals.com</a></p>
+		  <p><strong>The show will run for approximately two hours including one 15-minute intermission.</strong></p>
+		 <p>The videotaping or making of electronic or other audio and/or visual recording of this production and distributing recordings or streams in any medium, including the internet, is strictly prohibited, a violation of the author(s)’s rights and action are under United States copyright law. For more information, please visit: <a href="https://www.concordtheatricals.com/resources/protecting-artists">https://concordtheatricals.com/resources/protecting-artists</a>.</p>
+		 </p>
+	  </div>
+					
+		
+						
+					<div class="columns">
+<div class="container">
+        <div class="row">
+        <div class="col-md-12 col-12">
+		<div class="headline">
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="text-center htext"><!-- Temp name="Title" -->Show Sponsors<!-- Temp--></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						
+		</div>
+		</div>
+        </div>
+    </div>
+						
+			<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/AFA_RetirePlanInvest_Logo_Black.png"  alt="Altra Financial Advisors" width="792"/> </div>
+			
+			<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/Holiday-Inn-Express.png"  alt="Holiday Inn Express" width="1586"/> </div>
+			
+			<div class="column"><!-- Temp  name="Grid Item" --><!-- Temp End --><img src="images/Logos/mwf-lacrosse-logos-2019-all-bw.png"  alt="Midwest Family" width="504"/> </div>
+			
+										
+<!--Grid Items -->
+   
+</div>
+	
+	<br>
+	
+
+		
+	</section>
+						
+						
+			
+<section class="section">
+<div class="container">
+	<a href="#notes"></a>
+       <div class="row">         
+         <!--Section Items -->
+  <div class="col-md-12 col-12 note">
+	<div class="headline">
+					<span class="dot" id="#president"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="text-center htext" id="president"><!--  Temp name="Title" -->From the President <!-- Temp End --></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					
+			</div>
+			<!-- Temp name="Directors Image" --><img CLASS="portrait" src="../Headshots/RickTrietley.jpg" width="300" height="381" alt=""/>
+			  <p> <!-- Temp name="Note" -->Dear Arts Supporters,</p>
+			  <p>On behalf of everyone at ­Viterbo University, I would like to welcome you to the Fine Arts Center as we celebrate the return of in-person performances. The pandemic necessitated a year and a half-long pause in our live event schedule, and both our artists and audience members have been sorely missed. It is truly great to have you with us.</p>
+			  <p>It’s only fitting that the Fine Arts Center should be fully used to its intended purpose during its 50th anniversary year. Opened in 1971, it remains not only the premier arts facility in the region, but also a wonderful testament to the vision and courage of the Franciscan Sisters of Perpetual Adoration who made it possible. Their collective love and appreciation for the arts led to countless cultural opportunities in the greater La Crosse community and has enhanced all our lives.</p>
+			  <p>New Fine Arts Center director Dillion McArdle and his staff have an outstanding season planned for you this year. I invite you to pick up an On Stage book or visit the Viterbo website for the complete schedule. There is a wide variety of offerings from which to choose, and tickets make wonderful gifts. Included in the schedule are the Conservatory for the Performing Arts student productions. I am continually amazed at the incredible talent of our students, and seeing them put it to use always fills me with pride, no matter their role, pursuit, or field of study.</p>
+			  <p>While live performances and other events have returned, we must remain vigilant in the fight against the spread of COVID-19. I ask that you adhere to the university’s safety policies, including remaining masked while anywhere inside the building.</p>
+			  <p>The arts will always be an integral part of the Viterbo University experience, which is made even more special through the support of our patrons, benefactors, sponsors, and volunteers. It would not be the same without you. Thank you.</p>
+			  <p><img src="images/TrietleySignature.png" width="200" height="66" alt=""/><br>
+		      Rick Trietley, 
+		      President</p>
+			  <p><!-- Temp End --></p>
+      </div>
+	
+		   </section>
+  
+	<section class="tsection">
+                <div class="container">
+		<div class="headline">
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+				
+		</div>
+		       <div class="row">
+		       <!--Section Items -->
+  
+		  		<!--Section Items -->
+        </div>
+    </div>
+ </section>
+		  
+<section class="ads large">
+      <div class="container-fluid px-0" >
+        <div class="row">
+          <div class="col-md-12 col-12">
+        <div class="d-flex justify-content-center align-items-center">
+           <!-- Temp name="LargeAd" -->
+                               <a href="https://www.viterbo.edu/conservatory-performing-arts"><img class="img-fluid float-right" src="images/Ads/ConservatoryVirtualAd.jpg" alt=""></a>
+          <!-- Temp End -->
+        </div>
+      </div>
+        </div>
+      </div>
+    </section>
+
+		   
+	
+
+			<section class="text-area">
+			<div class="col-md-12 col-12">
+				<div class="headline">
+							<span class="dot" id="director"></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+					
+							<span class="text-center htext"><!-- Temp name="Title" -->Director's Note<!-- Temp End --></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							
+				</div>
+				<!-- Temp name="Text" --><p> Welcome to <em>CARRIE: The Musical!</em> This musical follows the story of Carrie White, a young girl with telekinesis, who must suffer through bullying by her classmates until she decides to put her powers to use. The story of Carrie and her destruction of her high school prom is well known within our cultural zeitgeist. Since the publication of the classic book in 1974 by Stephen King and the iconic film in 1976, many horror films, TV shows, books, and even cartoons have since paid homage to <em>CARRIE</em> and the blood drop scene at the prom.</p>
+ 
+<p><strong>Less known is the rich history and horrifying tale of the musical, which is aptly named, <em>CARRIE: The Musical</em>.</strong></p>
+ 
+<p>After the success of King's novel and Brian de Palma's cinematic adaptation, screenwriter Lawrence D. Cohen (who wrote the script for de Palma's 1976 film) and composer Michael Gore set to work on a musical version of the material. Gore, who wrote the hit musical <em>Fame</em>, brought in his collaborator on that project, Dean Pitchford, to help with rewrites. The musical had its first workshop in 1984, but it took several years to scrabble together funding. It wouldn't see the stage until 1988. The show had a trial run in Stratford-upon-Avon, England, in February 1988 that was riddled with script and technical problems. Barbara Cook, who played Carrie’s hysterically evangelical mother Margaret, resigned on opening night after she was almost decapitated by a set piece (although never proven). Several songs were removed, and several others added during the four-week workshop at Stratford. By the time it was over, it was growing pretty clear that the writers and composers had a cold turkey on their hands.</p>
+ 
+<p><em>CARRIE: The Musical</em> made its disastrous way to Broadway for $8 million, an astronomical number for 1988. Cook was replaced by actress Betty Buckley, who played Carrie's teacher Miss Collins in de Palma’s film, but even that added trivia couldn’t boost the show’s miserable fate. The show opened for previews on April 28, 1988 to wildly mixed reactions. The curtain call was met with both boisterous applause and loud boos. The press wasn’t kind to the musical, and their scathing reviews ultimately sank the project. Though it was sold out every night, the financial backers pulled their money. <em>CARRIE: The Musical</em> officially opened on May 12, 1988 and officially closed on May 15, after only five performances.</p>
+	
+<p><em>CARRIE: The Musical</em>'s brief stay on Broadway and crazy production history made it the subject of obsession for theatre aficionados, (me included). It inspired a book—Ken Mandelbaum's <em>Not Since Carrie: Forty Years of Broadway Musical Flops</em>–and bootlegs from the Stratford and New York performances made the rounds, which grew the show's popularity. It became a staple in high school and college theatre clubs, inspired parodies, and a few of the songs (like <em>When There’s No One</em>) even became popular solo audition songs.</p>
+
+<p>The ongoing interest in <em>CARRIE: The Musical</em> led to an off-Broadway revival in 2012. A lot of the songs from the 1988 production were replaced and the story arc now focuses on Sue along with Carrie as the two carrying the show’s plot. In the revision, the writers also focused the script on the bullying of Carrie by her classmates and lead with the message, "What does it take to be kind?" A message that I feel we all can take with us in today’s world. The 2012 revival is, thankfully, the version we present to you tonight. It’s a fun, fast, energetic ride, that will hopefully take you back to the thrills and message that Stephen King first envisioned with his telling of <em>Carrie</em>.</p>						
+				
+								
+			  <p> Sincerely, </p>
+				<p>Teddy Eck, Director
+<!-- Temp End --></p>
+			</div>
+		</section>
+	
+			
+	
+			<div class="col-md-12 col-12 note">
+			<div class="headline">
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="text-center htext"><!--  Temp name="Title" -->Setting <!-- Temp End --></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					
+			</div>
+			<!-- Temp name="Directors Image" --><!-- Temp End -->
+			  <p style="text-align:center" > <!-- Temp name="Note" -->Chamberlain, a small town in Western Maine. The present.<!-- Temp End --></p>
+		</div>
+
+	
+					<div class="col-md-12 col-12 note">
+			<div class="headline">
+					<span class="dot" id="scenes"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="text-center htext"><!--  Temp name="Title" -->Synopsis of Scenes <!-- Temp End --></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					
+			</div>
+			<!-- Temp name="Directors Image" --><!-- Temp End -->
+			     <ul style="list-style: none;">
+				  <li> <!-- Temp name="Note" --><strong>Act One Song List</strong></li><br>
+			    <li><strong><em>In:</em></strong> Full Company</li>
+			    <li><strong><em>Carrie (and Carrie cont'd):</em></strong> Carrie, Ensemble</li>
+			    <li><strong><em>Open Your Heart:</em></strong> Bliss, Margaret, Carrie, Ensemble</li>
+			    <li><strong><em>And Eve Was Weak:</em></strong> Margaret, Carrie</li>
+			    <li><strong><em>The World According to Chris</em></strong>: Chris, Billy, Sue, Tommy, Helen, Frieda, Norma, Stokes, George, Freddy</li>
+			    <li><strong><em>Evening Prayers:</em></strong> Carrie, Margaret</li>
+			    <li><strong><em>Dreamer in Disguise:</em></strong> Tommy </li>
+			    <li><strong><em>Once You See:</em></strong> Sue</li>
+			    <li><strong><em>Unsuspecting Hearts:</em></strong> Miss Gardner, Carrie </li>
+			    <li><strong><em>Do Me A Favor:</em></strong> Chris, Billy, Sue, Tommy, Ensemble</li>
+			    <li><strong><em>I Remember How Those Boys Could Dance:</em></strong> Carrie, Margaret</li>
+				 <br>
+				<li><strong><em>Act Two Song List</em></strong></li><br>
+				<li><strong><em>A Night We'll Never Forget:</em></strong> Full Company</li>
+			    <li><strong><em>You Shine:</em></strong> Tommy, Sue</li>
+				<li><strong><em>Why Not Me?:</em></strong> Carrie, George, Stokes, Freddy, Helen, Freida, Norma, Ensemble</li>
+			    <li><strong><em>Stay Here Instead:</em></strong> Carrie, Margaret</li>
+				<li><strong><em>When There's No One:</em></strong> Margaret</li>
+			    <li><strong><em>Prom Arrival:</em></strong> Full Company</li>
+				<li><strong><em>Unsuspecting Hearts (reprise):</em></strong> Miss Gardner, Carrie</li>
+				<li><strong><em>Dreamer in Disguise (reprise):</em></strong> Tommy, Carrie, Full Company</li>
+				<li><strong><em>The Prom:</em></strong> Chris, Billy, Full Company</li>
+				<li><strong><em>Prom Climax:</em></strong> Full Company</li>
+				<li><strong><em>Alma Mater:</em></strong> Full Company</li>
+				<li><strong><em>The Destruction:</em></strong> Full Company</li>
+				<li><strong><em>Carrie (reprise):</em></strong> Carrie, Margaret</li>
+				<li><strong><em>Epliogue</em></strong>: Sue, Full Company</li>
+			 
+				  		  
+				  
+			    </ol>
+					  <!-- Temp End --></p>
+		</div>
+
+	
+	<div class="col-md-12 col-12 text-area">
+			  <div class="headline">
+							<span class="dot" id="company"></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							<span class="text-center htext"><!-- Temp name="Title" -->Cast<!-- Temp End --></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							
+				</div>
+				<!-- Temp name="Text" -->
+				<p><strong>Carrie:</strong> Kalyn Schmit </p>
+				<p><strong>Margaret:</strong> Rachel Ponder</p>
+				<p><strong>Sue:</strong> Mattie Kantor </p>
+				<p><strong>Tommy:</strong> Calvin Pierce</p>
+				<p><strong>Chris:</strong> Ainsley Alrutz</p>
+				<p><strong>Billy:</strong> Josh Terrones</p>
+				<p><strong>Ms. Gardner:</strong> Alicia Pedraza</p>
+				<p><strong>Mr. Stephens/Reverend Bliss:</strong> Brandon Rundquist</p>
+				<p><strong>George:</strong> Evan Schmit</p>
+				<p><strong>Stokes:</strong> Jake Aune</p>
+				<p><strong>Norma:</strong> Joie Steele</p>
+				<p><strong>Frieda:</strong> Kassidy Kampmeier</p>
+				<p><strong>Helen:</strong> Mariana Villanueva</p>
+				<p><strong>Freddy/Billy understudy: </strong> Mason Wold </p>
+				<p><strong>Ensemble (Carrie understudy):</strong> Jillian Kohl</p>
+				<p><strong>Ensemble (Chris understudy):</strong> Amber Arevalo </p>
+				<p><strong>Ensemble (George, Stokes, and Freddy understudy):</strong> CJ Zimmer</p>
+				<p><strong>Ensemble (Tommy, Mr. Stephens, and Reverend Bliss understudy):</strong> Colin Cada</p>
+				<p><strong>Ensemble (Ms. Gardner understudy):</strong> Payton Harper</p>
+				<p><strong>Ensemble (Sue understudy):</strong> Payton Seacrist</p>
+				<p><strong>Swings:</strong> Sophie La Fave, Max Larson, Zach Sullivan, Halle Utterback</p>
+		
+			</div>
+
+
+
+
+<div class="col-md-12 col-12 text-area">
+			  <div class="headline">
+							<span class="dot" id="company"></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							<span class="text-center htext"><!-- Temp name="Title" -->Orchestra<!-- Temp End --></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							
+				</div>
+				<!-- Temp name="Text" -->
+				<p><strong>Keyboard 1/Conductor:</strong> Janette Hanson </p>
+				<p><strong>Keyboard 2:</strong> Matt Salvo </p>
+				<p><strong>Guitar 1:</strong> Paul Leithold</p>
+				<p><strong>Guitar 2:</strong> Kyle Renfro</p>
+				<p><strong>Cello:</strong> Derek Clark</p>
+				<p><strong>Bass:</strong> Troy Birdsong</p>
+				<p><strong>Drums:</strong> Dave Kies</p>
+			
+			</div>
+
+		
+	
+	<div class="col-md-12 col-12 text-area">
+			  <div class="headline">
+							<span class="dot" id="company"></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							<span class="text-center htext"><!-- Temp name="Title" -->Production Team<!-- Temp End --></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							
+				</div>
+				<!-- Temp name="Text" -->
+				<p><strong>Director/Fight Director:</strong> Teddy Eck</p>
+				<p><strong> Music Director:</strong> Janette Hanson</p>
+				<p><strong>Choreographers:</strong> Emily Craver, Jack Scharrer</p>
+			<p><strong>Assistant Director/Stage Manager:</strong> Mads Magson</p>
+			<p><strong>Assistant Stage Managers:</strong> Jo Kasper, Jocelyn Rewalt</p>
+			<p><strong>Lighting Designer:</strong> Erik Voser</p>
+			<p><strong>Projection Designer:</strong> Frank Ludwig, Grant Barclay </p>
+			<p><strong>Sound Engineer:</strong> Brett Huus</p>
+			<p><strong>Sound Designer:</strong> Ian Zempel</p>
+			<p><strong>Technical Director:</strong> Chad Kolbe</p>
+			<p><strong>Dance Captain:</strong>: Jack Scharrer</p>
+			<p><strong>Scenic Designer:</strong> Yuri Okahana-Benson</p>
+			<p><strong>Scenic Construction:</strong> Chad Kolbe, Jack Hamilton </p>
+			<p><strong>Costume Designer:</strong> Jen Brown</p>
+			<p><strong>Assistant Costume Designer:</strong> Alex Bell, Sophia Barbato</p>
+			<p><strong>Assistant Hair and Makeup Designer: </strong> Bri Reilly</p>
+			<p><strong>Properties Design/Master: </strong> Grace Reynolds, Jess Rigdon</p>
+					
+			
+			</div>
+
+	 
+	
+	
+			<div class="col-md-12 col-12">
+			  <div class="headline">
+							<span class="dot"></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							<span class="text-center htext"><!-- Temp name="Title" -->Production Crew<!-- Temp End --></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+							
+				</div>
+				<!-- Temp name="Text" --><p><strong>Light Board Operator:</strong> Calum Sullivan</p>
+				<p><strong>Sound Board Operator:</strong> Mitchell Shaw </p>
+				<p><strong>Run Crew:</strong> Robby Alston, Ruby Brisco, MeiSi Chang, PJ Doherty </p>
+				<p><strong>Hair/Makeup/Wardrobe Crew:</strong> Lauren Canfield, Anna Martinson, Adelaide Young, Shea Grande, Maddy Ballard </p>
+				<p><strong>Spotlight Operators:</strong> Katie Schafer, Shannon Starkloff
+			
+				<!-- Temp End --></p>
+			</div>
+	  
+	  	<div class="headline">
+						<span class="dot" id="bios"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="text-center htext"><!-- Temp name="Title" -->Biographies<!-- Temp--></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+			
+			<h5	>Cast</h5>
+						
+		</div>
+	
+	
+	  <div class="col-md-12 col-12 bio">
+       		  <div class="one_bio">
+              <div class="position">           
+              <hr>
+                <h3><!-- Temp name="Position" -->Chris<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Ainsley Alrutz </h5>is from Newnan, Ga. and is a sophomore music theatre major. She is so thrilled to be playing Chris with such an incredible cast and creative team. She would like to thank her parents for always supporting her dreams and loving her so well. If you take anything from the show, just remember to always be kind to one another.<!-- Temp End--></p>
+          </div> 
+
+</div>
+	
+	
+	  
+	  <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Ensemble/Chris Understudy<!-- Temp End--></h3>
+			  <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Amber Arevalo </h5>
+              <a href="https://www.instagram.com/amberarevalo/">@amberarevalo</a><p>is a sophomore music theatre major with a dance minor. She is also on the dance team. She is from Ft. Lauderdale, Fla. and grew up in Monterrey, Mexico. At Viterbo, Amber has been seen in <em>The Pajama Game</em> as Jo and in <em>The Night Children</em>.</p>
+		  </div>
+</div>
+			  
+			  			  
+			  <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Stokes<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Jake Aune </h5>is a first-year musical theatre major from the Twin Cities. He is beyond excited to be making his first appearance in a main stage production at Viterbo. Jake would like to thank his cast and crew for making <em>CARRIE: The Musical</em> a great experience.<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+      
+		  <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Ensemble/Tommy, Stephens, Bliss Understudy<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Colin Cada</h5>is a first-year theatre student. He is excited to be cast as an ensemble member in <em>CARRIE: The Musical</em>, which will be his first show in over two years. Some of his previous roles include Fleance in <em>Macbeth</em> and Conrad in <em>Bye Bye Birdie</em>.<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Ensemble/Gardner Understudy<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Payton Harper </h5>is a junior music theatre major from Atlanta. Her past Viterbo credits include <em>The Pajama Game</em>, <em>Twelfth Night</em>, and Platinum Edition show choir. She is also a part of the Student Government Association and the Student Theatre Project at Viterbo. She gives all her love and thanks to her mom, dad, and brother.<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Frieda<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Kassidy Kampmeier </h5>is a junior music theatre major from Bemidji, Minn. Her past Viterbo credits include Dipsas in <em>Lysistrata</em>, Calpurnia in <em>Julius Caesar</em>, and the <em>Dear Diary</em> cabaret. Off stage, Kampmeier enjoys being a part of Viterbo’s Student Theatre Project as well as being an SSS/TRIO peer mentor. Kampmeier thanks you all for coming and hopes you enjoy the show!<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Sue<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Mattie Kantor </h5>is humbled to be performing alongside this incredible cast. Kantor is a junior music theatre major with minors in dance and arts management. They have most recently been seen as Brenda in <em>The Pajama Game</em>, and Cinna/Strato in <em>Julius Caesar</em>. She would like to thank Meg, Dublin, Aren, and her family for their never-ending support. Enjoy the show! And remember, "What does it cost to be kind?"<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+
+ <div class="col-md-12 col-12 bio">
+   <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Ensemble/Carrie Understudy<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Jillian Kohl </h5>is a sophomore music theatre major with a dance minor. She performed as an ensemble member in <em>The Pajama Game</em> last semester. She is super excited for her second Viterbo performance and would like to thank her friends, professors, and family (especially her mom) for their constant support!
+       <!-- Temp End--></p>
+     </div> 
+
+</div>
+
+
+<div class="col-md-12 col-12 bio">
+ <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Swing<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Sophie La Fave </h5>is thrilled to present <em>CARRIE: The Musical</em>. She is a first-year music theatre major. So far at Viterbo, she has been blessed with the opportunity to perform with Diamond Edition show choir. Off the stage, she enjoys writing music, art in any capacity, and thrifting. She’d like to thank the production team for such a wonderful experience.<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+
+<div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Miss Gardner<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Alicia Pedraza </h5>is excited for her final production at Viterbo. Originally from Cleveland, she's graduating in May with a BFA in music theatre. She was last seen in <em>Lysistrata </em>in October. Other favorite credits include, <em>Be More Chill </em>(Christine), and <em>Into the Woods</em> (Florinda). BIG thanks and love to her family and friends. Enjoy the show!<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+      
+		  <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Tommy<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Calvin Pierce </h5>is a sophomore music theatre major. He is extremely excited to be a part of his second production at Viterbo and would like to thank the entire creative team, his family, and his people–Ainsley, Josh, Brandon, Payton, and everyone else who loves him.<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Margaret White<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Rachel Ponder </h5>is a senior music theatre major from Birmingham. Some past credits include, Lampito (<em>Lysistrata</em>), Wendla (<em>Spring Awakening</em>), and Jenny June Fail (<em>Failure: A Love Story</em>). Rachel will be heading to Orlando for the Disney College Program starting this July. She would like to thank her director, Teddy Eck, her friends, family, and castmates for being so bloody amazing!<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Mr. Stephens/Reverend Bliss<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Brandon Rundquist </h5>is a sophomore music theatre major from Prescott. He was previously seen in <em>Lysistrata </em>and <em>Why Love?</em> He is also a member of the Platinum Edition show choir. He is thrilled to be part of his first musical with Viterbo. Special thanks to his supporting friends and family!<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->George<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Evan Schmit </h5>is a junior music theatre major from Sauk Prairie. He has been seen previously in <em>The Pajama Game</em>, as well as participating in Student Theatre Project (STP) productions. He would like to thank his family for their constant support through all his endeavors.<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Carrie White<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Kalyn Schmit </h5>is a sophomore music theatre major from Sauk Prairie. She has previously played Mabel in <em>The Pajama Game</em> and various characters in <em>The Night Children</em>. Kalyn thanks the entire cast and team of <em>CARRIE: The Musical</em> and her friends and family for their love and support.<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+   <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Ensemble/Sue US<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Payton Seacrist </h5>is so excited to be returning to the stage for her second musical with Viterbo. She is a sophomore music theatre major with a dance minor. She is from Apple Valley, Minn. You may have seen her in <em>The Pajama Game</em>, Platinum Edition’s Spooktacular, or <em>Light at the End of the Tunnel</em>. She wants to give a special shout-out to her incredible parents, Scott, and Kris (for being so supportive and loving), and her best friends, Ainsley, Calvin, Josh, Virginia, and Brandon.<!-- Temp End--></p>
+          </div> 
+
+</div>
+      
+		  <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Norma<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Joie Steele </h5>
+              <a href="https://www.instagram.com/joie.steele/">@joie.steele</a><p>is a first-year music theatre major with minors in dance and arts administration from Tuscaloosa, Ala. Back in Bama, she notably worked with Red Mountain Theatre as a member of their Performing Ensemble and also traveled the state as a choreographer. She is excited to be a part of <em>CARRIE: The Musical</em> with all these phenomenal humans! <!-- Temp End--></p>
+          </div> 
+
+</div>
+
+  <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Swing<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Zachary Sullivan </h5>is a first-year music theatre major from Chanhassen, Minn. and is excited to be making his debut at Viterbo as a swing in <em>CARRIE: The Musical</em> at Viterbo. Recent favorite credits include Spamtown, USA, and Bright Star. All thanks to family, friends, Andy, and Jenny.<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Billy<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Joshua Terrones </h5>
+              <a href="https://www.instagram.com/joshuaterrones/">@joshuaterrones</a><p> is a sophomore music theatre major with minors in dance and arts administration from Tulsa, Okla. Recently, he was seen in Platinum Edition’s <em>Spooktacular</em> and Viterbo’s production of <em>Lysistrata</em>. He would like to thank his family, friends, and the McDonald’s on Losey for always supporting him. #ForeverPlaid<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+       
+
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Swing<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Halle Cate Utterback </h5>is a first-year music theatre student from Austin, Texas. She is so happy to be working on her first production at Viterbo. She is a member of Diamond Edition, a Student Government Association first-year student rep, a student in the Honors Program, and a Viterbo dance tutor. She would like to thank her family and friends back home for their love and support, as well as everyone at Viterbo for being so welcoming and supportive.<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Helen<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Mariana Villanueva </h5>is a sophomore music theatre major from San Antonio. She is overjoyed to play Helen in <em>CARRIE: The Musical</em> at Viterbo! She was in <em>Lysistrata</em> in the fall, is part of the Platinum Edition show choir, and has performed in a variety of cabarets at Viterbo. She would like to dedicate this performance to her wonderful dad who supports her in everything she does. Love you da googs! Enjoy the show!<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Freddy/Billy Understudy<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Mason Wold </h5>
+              <a href="https://www.instagram.com/masonallenwold/">@masonallenwold</a><p> is a junior music theatre major from Oakdale, Minn. Past credits include Hines in <em>The Pajama Game</em>, Hanschen in <em>Spring Awakening</em>, and dance captain of Platinum Edition show choir. He also serves as artistic director of the Student Theatre Project. Thank you to family and friends for their constant support and enjoy the show! <!-- Temp End--></p>
+          </div> 
+
+</div>
+
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Ensemble/George, Stokes, Freddy Understudy<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>CJ Zimmer </h5>is a first-year music theatre student from Taylor Mill, Ky. He is very excited to be part of his first production at Viterbo. He thanks his family for all their love and support.<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+
+			  
+			  
+<div class="headline">
+				  <span class="dot"></span>
+				  <span class="dot"></span>
+				  <span class="dot"></span>
+				  <span class="text-center htext"><!-- Temp name="Title" -->Biographies<!-- Temp--></span>
+				  <span class="dot"></span>
+				  <span class="dot"></span>
+				  <span class="dot"></span>
+			
+  <h5	>Production Team</h5>
+						
+		</div>
+
+		  
+
+<div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Director/Fight Director<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Teddy Eck</h5>is excited to invite audiences to <em>CARRIE: The Musical</em>, his second directorial project this season, following his Viterbo directorial debut with the production of <em>Everybody</em>. He and his family moved to the La Crosse area so he could teach in the theatre department in summer 2021. Prior to moving to the area, he served as a professor in California, most recently as the theatre and film department chair at Monterey Peninsula College. He has several decades of professional theatre experience working on both coasts in TV, film, commercials, Off-Broadway, LORT Theatre, cruise ships, and more! He has a master's in directing and non-profit management from the University of Memphis, a BFA in musical theatre performance from The New School/AMDA in NYC, and a degree in film production/screenwriting from The New School. He would like to thank his family for their support and the wonderful cast and crew for their dedication and passion with this project! <!-- Temp End--></p>
+          </div> 
+
+</div>
+
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Music Director<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Janette K. Hanson</h5> has served as collaborative accompanist, vocal coach, music director, rehearsal pianist, and pit musician for the music theatre department at Viterbo since 2016. She directed the 2020 Wisconsin All-State Vocal Jazz Honor Choir and serves as judge and clinician for regional festivals. She accompanies several vocal, instrumental, and music theatre recitals each year, including the National NATS competition in 2019. She received her Bachelor of Music Education from Central Missouri State University, and her master’s degree in education from UW-La Crosse. She and her husband Mark have four adult children and two granddaughters.<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+ <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Choreographer<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Emily Craver</h5> holds an MFA in dance from the Ohio State University. She is currently an instructor of dance at Viterbo. Her work has been shown at New Victory LabWorks, WestFest's All Over Westbeth, The PIT, and The Comedy in Dance Festival. She has also choreographed for Weston Drama Workshop, Stoneham Theatre Young Company, and Wellesley Players. She dances with NYC-based Trainor Dance and New Orleans-based CabinFever Live Art. Favorite performances include dancing at NYBG, Chicago's Museum of Contemporary Art, Jacob's Pillow Inside/Out Stage, The Yard, and Joe's Pub. Most recently, she choreographed <em>The Pajama Game</em> at Viterbo.<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+  <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Choreographer/Dance Captain<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Jack Scharrer</h5>is a senior music theatre major with a dance minor from Lake Elmo, Minn. At Viterbo, he has been seen as Sid in <em>The Pajama Game</em>, Tugger in <em>CATS</em>, Earthworm in <em>James and The Giant Peach</em>, Rapunzel's Prince in <em>Into the Woods</em>, and as a dance captain for Platinum Edition show choir. He's enjoyed stepping into a different role for this production and is especially grateful to Emily and Teddy for their collaboration and support. Much love to his friends and family, and as always, thank you for supporting live theatre! <a href="https://www.jackscharrer.com/">www.jackscharrer.com</a><!-- Temp End--></p>
+          </div> 
+
+</div>
+
+
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Assistant Director/Stage Manager<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Mads Magson</h5>
+              <a href="https://www.instagram.com/madelyn.magson/">@madelyn.magson</a><p> is a sophomore music theatre major at Viterbo. She came to Viterbo from Dallas but has lived in seven states so far! Her previous work at Viterbo as a stage manager includes <em>Kaleidoscope 2021</em> and <em>Lysistrata</em>. She is overjoyed to be in these roles for such a wonderful production filled with the most amazing and talented people. She wants to thank her parents for their love from a thousand miles away, as well as her homies Joie, Ian, and Bailey!<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+         
+<div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Assistant Stage Manager<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Jo Kasper</h5> is super excited to be a part of <em>CARRIE: The Musical</em> as an assistant stage manager. Previously they have been seen in Viterbo’s production of <em>The Pajama Game</em> as Poopsie. They are a sophomore music theatre major and wish the entire cast/production team all the love possible! <!-- Temp End--></p>
+          </div> 
+
+</div>
+
+<div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Assistant Stage Manager<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Jocelyn Rewalt</h5>is from way up north in Ashland. She has enjoyed being one of the assistant stage managers in <em>CARRIE: The Musical</em>. She is a music major with a theatre minor and loves it! One of her favorite scenes in <em>CARRIE</em> is “A Night We'll Never Forget” and the death scene at the end. Along with <em>CARRIE</em>, she is also in the student production of <em>Puffs: a play</em>. If you love Harry Potter, you'll love <em>Puffs</em>. Thank you for coming to our show!<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+  <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Lighting Designer<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Erik Vose </h5>is the director of production for La Crosse Community Theatre (LCT). Prior to joining LCT, Vose was the director of operations and technical director of the Sue & Frank Mayborn Performing Arts Center at the University of Mary Hardin-Baylor. Previously, he was the director of production at the Gallo Center for the Arts in Modesto, Calif. where he coordinated all the production elements for over 300+ events a season. Vose has an MFA in theatre design and technology from the University of Nebraska-Lincoln and a BFA in theatre from Texas State University-San Marcos.
+
+<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+    <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Production Designer<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Frank Ludwig</h5>has been with Viterbo since 2006 and is currently serving as the administrative leader of the Conservatory for the Performing Arts. As a professor of theatre and music theatre, he specializes in entertainment design and technology. His scholarship interests have generated several feature articles for <em>TD&T</em>, the quarterly journal of United States Institute of Theatre Technology (USITT), examining contemporary challenges and trends in the entertainment industry professional practice and post-secondary training. Ludwig is a member of United Scenic Artist in the set design category and has worked as a professional designer and scenic artist for over 25 years.<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Sound Designer<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Ian Zempel</h5>
+              <a href="https://www.instagram.com/b_r_i_b_e/"> @b_r_i_b_e</a><p> is a sophomore music theatre major from Sheboygan. He has found a useful application for his skills with music production and recording engineering in designing and running sound for Viterbo productions. In the past two years, he has operated sound for Dance Repertory's <em>Kaleidoscope</em>, designed sound for Student Theatre Project’s <em>In Limbo</em>, and designed and performed for Selections from <em>Spring Awakening</em> and <em>Lysistrata</em>. He looks forward to creating “Wiggly Air Atmospheres” for <em>CARRIE: The Musical</em> and beyond, both with Viterbo shows and in his own upcoming music! <!-- Temp End--></p>
+          </div> 
+
+</div>
+
+    
+
+<div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Scenic Designer<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Yuri Okahana-Benson </h5>
+              <a href="https://www.instagram.com/11uri30/">@11uri30</a><p>is based in Los Angeles. Originally from Tokyo, she has been working both nationally and internationally. She would like to thank everyone at the Conservatory for the Performing Arts for the opportunity. Her recent design credits include: <em>Delilah </em>(Zoom production) with Pandora Productions, <em>Rashomon</em> at AWVT, <em>Cardboard Piano </em>(West coast Premiere) at ICT, <em>Marriage Contract</em> at New Vic Theater, and many more. MFA in scenic design from CSU, Long Beach. More info available at <a href="http://www.yuriokahana.com/">www.yuriokahana.com</a>. <!-- Temp End--></p>
+          </div> 
+
+</div>
+
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Scenic Construction<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Chad Kolbe </h5>is an associate professor of theatre in his 14th year of teaching at Viterbo. He teaches design and technology courses such as stage craft, principles of design, theatre practicum, computer-aided drafting, design studio, and stage lighting. He also serves as technical director, production manager, and lighting designer for the theatre and music theatre department. Before beginning his journey at Viterbo, Kolbe served as instructor and technical director at the University of Northern Iowa. For six years, he served as the technical director for the Texas Shakespeare Festival in Kilgore, Texas. Before that he served three years as carpenter, head rigger, and assistant technical director for the Des Moines Metro Opera. Kolbe enjoys time with family and being outside exploring all that La Crosse and the surrounding areas have to offer.<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Scenic Construction<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Jack Hamilton</h5> received a Bachelor of Arts in theatre/dance and a certificate in theatre/dance management from Luther College in Decorah, Iowa. Since then, he has worked at Viterbo in a number of roles including facility technical director and production manager for the Fine Arts Center and recently began his new role as production coordinator for the Conservatory for the Performing Arts. He has served as the technical director for Platinum Edition since 2006 and lighting designer for Viterbo’s production of <em>The Hotel Casablanca</em>, <em>Acis & Galatea</em>, <em>The Telephone</em>, and <em>The Medium</em>.<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+  
+      
+      <div class="col-md-12 col-12 bio">
+          <div class="one_bio">
+              <div class="position">
+              <hr>
+                <h3><!-- Temp name="Position" -->Properties Designer<!-- Temp End--></h3>
+              <hr>
+              </div>
+        
+              <!-- Temp name="Bio Image" --><!-- Temp End-->
+        
+              <p><!-- Temp name="BioText" --><h5>Grace Reynolds</h5>is a junior theatre major from Madison. Recent Viterbo credits include <em>Everybody </em>(Love) and <em>Elephant's Graveyard </em>(Preacher). Upcoming projects include <em>The Elephant Speaks Jazz </em>(Ellie Puppeteer/Miss Viola). She has also done props design for <em>Lysistrata</em> and <em>Julius Caesar</em>. Thanks to Mom, Dad, Annie, and Gabby for their love and support and to Jen Brown for her mentorship.<!-- Temp End--></p>
+          </div> 
+
+</div>
+
+        
+		  <section class="tsection">
+                <div class="container">
+		<div class="headline">
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+				
+		</div>
+		       <div class="row">
+		       <!--Section Items -->
+  
+		  		<!--Section Items -->
+        </div>
+    </div>
+ </section>		   
+           	  
+		
+
+
+		  <section class="ads large">
+      <div class="container-fluid px-0" >
+        <div class="row">
+          <div class="col-md-12 col-12">
+        <div class="d-flex justify-content-center align-items-center">
+           <!-- Temp name="LargeAd" -->
+                             <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/onalaska/lsemd/hoteldetail"> <img class="img-fluid float-right" src="images/Ads/HolidayInnExpressAd.jpg" alt="Holiday Inn Express"> </a>
+          <!-- Temp End -->
+        </div>
+      </div>
+        </div>
+      </div>
+    </section>
+		  
+		  
+		  <section class="ads med">
+      <div class="container-fluid px-0" >
+        <div class="row">
+          <div class="col-md-12 col-12">
+        <div class="d-flex justify-content-center align-items-center">
+            <!-- Temp name="AdMed" -->
+						<a href="https://midwestfamilylacrosse.com/"> <img class="img-fluid float-right" src="images/Ads/MWF La Crosse.jpg" alt="Mid-West Family"></a>
+           <!-- Temp End -->
+                  </div>
+     </div>
+        </div>
+      </div>
+    </section>
+		  
+		  
+		  <section class="ads small">
+      <div class="container-fluid px-0" >
+        <div class="row">
+          <div class="col-md-12 col-12">
+			  <div class="d-flex justify-content-center align-items-center">
+			    <!-- Temp name="AdSmall" -->
+                              <a href="https://www.altra.org/invest-insure/altra-financial-advisors"> <img src="images/Ads/AFA_Ad-ViterboFineArts.jpg" alt="Altra Financial Advisors" class="img-fluid float-right" border="0"></a>
+			    <!-- Temp End -->
+			  </div>
+			</div>
+        </div>
+      </div>
+    </section>
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  <section class="tsection">
+                <div class="container">
+		<div class="headline">
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+				
+		</div>
+		       <div class="row">
+		       <!--Section Items -->
+  
+		  		<!--Section Items -->
+        </div>
+    </div>
+ </section>		   
+		   
+		  
+		  
+		  
+		  
+	  
+	  
+	  
+	  <!-- InstanceEndEditable -->
+	  <!-- Snipits End Here -->
+	  <!-- Snipits End Here -->
+	  <!-- Snipits End Here -->
+
+    <div class="section foot" id="touch"> 
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-12">
+            <h3 class="text-center">
+				<a href="https://www.viterbo.edu/fine-arts-center/box-office-information" class="btn btn-info" role="button">Information For Our Patrons</a>
+				</h3>
+          </div>
+          <div class="col-md-12 col-12">
+            <address class="text-center">
+              <strong>Viterbo Fine Arts Center</strong><br>
+              900 Viterbo Drive<br>
+              La Crosse, WI 54650<br>
+              608-796-3737 | 
+			  <a href="mailto:finearts@viterbo.edu">finearts@viterbo.edu</a>
+			  <br><a href="http://www.viterbo.edu/fac">www.viterbo.edu/fac</a>
+            </address>
+			
+          </div>
+		  <div class="col-md-12 col-12">
+           <p class="text-center">Copyright 2022 © Viterbo University.<br/>All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+			 
+          </div>
+        </div>
+      </div>
+    </footer>
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		  <div class="modal-body">
+			...
+		  </div>
+		  <div class="modal-footer">
+		  </div>
+		</div>
+	  </div>
+	</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+  <script src="js/main.js"></script>
+	   
+	  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-43891006-1');
+</script>
+
+  </body>
+<!-- InstanceEnd --></html>
