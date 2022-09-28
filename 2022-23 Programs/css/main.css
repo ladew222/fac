@@ -43,7 +43,6 @@ img {
 .columns > .column {
   flex: 1 1 30%;
   /*grow | shrink | basis */
-  height: 80px;
   padding: 20px; }
 
 .columns2 {
